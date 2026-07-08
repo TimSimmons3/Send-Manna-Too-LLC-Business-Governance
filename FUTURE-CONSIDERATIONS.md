@@ -1,11 +1,78 @@
-## Final Deliverable Branding, Confidentiality, and Pagination Requirement
+# Send Manna Too LLC Future Considerations Register
 
-Final Send Manna Too LLC documents and deliverables must use a controlled publication format that includes:
+## 1. Document Control
 
-- Send Manna Too LLC logo in the header
-- Footer confidentiality marking: "Property and Confidential"
-- Page numbering in the format: "Page 1 of X Pages"
+Version: 0.1
+Status: Draft
+Owner: Send Manna Too LLC
+Canonical Source: Markdown in Git repository
+Applies To: Future governance, operating-model, publication, commercial, partner, client-engagement, template, and framework improvement ideas
+Effective Date: TBD
+Review Cycle: At least annually or during release planning
 
-This requirement applies to final, client-facing, partner-facing, executive, or publication-ready deliverables.
+## 2. Purpose
 
-Markdown remains the canonical source. Word, PDF, and PowerPoint versions are publication formats and must preserve these branding, confidentiality, and pagination requirements where technically practical.
+This register captures ideas, enhancements, backlog items, and potential future work that may be useful but are not approved for current release scope.
+
+The purpose is to prevent uncontrolled scope expansion while preserving useful ideas for future review.
+
+Items in this register are not approved requirements unless they are separately adopted through the Decision Register, an approved standard, or a later release plan.
+
+## 3. Entry Format
+
+Each future consideration should use the following structure:
+
+- Future consideration ID
+- Title
+- Date added
+- Status
+- Category
+- Priority
+- Applies to
+- Context
+- Consideration
+- Rationale
+- Current disposition
+- Related artifacts
+
+## 4. Status Values
+
+- Proposed: Captured for future review.
+- Accepted for Backlog: Worth preserving for future planning but not approved for current scope.
+- Partially Implemented: A related requirement has been adopted, but additional future work remains.
+- Implemented: Completed and no longer active as a future consideration.
+- Deferred: Intentionally postponed.
+- Rejected: Considered and not accepted.
+
+## 5. Future Considerations
+
+## FC-0001: Controlled Publication Templates for Final Deliverables
+
+Date Added: 2026-07-08
+Status: Partially Implemented
+Category: Publication / Templates / Quality
+Priority: Medium
+Applies To: Final client-facing, partner-facing, executive, and publication-ready deliverables
+
+### Context
+
+Final Send Manna Too LLC documents and deliverables require consistent branding, confidentiality marking, and page numbering.
+
+The underlying publication requirement has been adopted in the Document Quality Standard and recorded in the Decision Register.
+
+### Consideration
+
+Create controlled Word, PDF, and PowerPoint publication templates that include the Send Manna Too LLC logo, Property and Confidential footer marking, and Page 1 of X Pages numbering where technically supported.
+
+### Rationale
+
+Controlled templates will reduce formatting drift, improve professionalism, support confidentiality posture, and help final deliverables remain traceable to the canonical Markdown source.
+
+### Current Disposition
+
+The requirement is approved. Template buildout remains future implementation work and is not an additional Release 0.1 deliverable.
+
+### Related Artifacts
+
+- docs/Standards/Document-Quality-Standard.md
+- DECISIONS-LOG.md
