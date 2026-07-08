@@ -3,11 +3,11 @@
 ## 1. Document Control
 
 Version: 0.1
-Status: Draft
+Status: Approved
 Owner: Send Manna Too LLC
 Canonical Source: Markdown in Git repository
 Applies To: All Send Manna Too LLC governance documents, advisory work, client deliverables, partner relationships, and commercial decisions
-Effective Date: TBD
+Effective Date: 2026-07-08
 Review Cycle: At least annually or upon material business, legal, commercial, or governance change
 
 ## 2. Purpose
@@ -152,7 +152,7 @@ Recurring exceptions may indicate a framework defect and should be reviewed for 
 ## 14. Approval
 
 Approved By: Timothy Simmons / Send Manna Too LLC
-Approval Date: TBD
-Effective Date: TBD
+Approval Date: 2026-07-08
+Effective Date: 2026-07-08
 
 This Constitution remains in draft status until approved and committed as part of the Release 0.1 foundation baseline.

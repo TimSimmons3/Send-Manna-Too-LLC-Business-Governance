@@ -3,11 +3,11 @@
 ## 1. Document Control
 
 Version: 0.1
-Status: Draft
+Status: Approved
 Owner: Send Manna Too LLC
 Canonical Source: Markdown in Git repository
 Applies To: Future governance, operating-model, publication, commercial, partner, client-engagement, template, and framework improvement ideas
-Effective Date: TBD
+Effective Date: 2026-07-08
 Review Cycle: At least annually or during release planning
 
 ## 2. Purpose

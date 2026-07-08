@@ -1,7 +1,7 @@
 # Send Manna Too LLC Business Governance Framework
 ## Release 0.1 Development Plan
 
-Document status: Draft
+Document status: Approved
 Version: 0.1
 Owner: Send Manna Too LLC
 Classification: Internal Use

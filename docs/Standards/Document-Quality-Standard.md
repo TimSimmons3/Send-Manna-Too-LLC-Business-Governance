@@ -3,11 +3,11 @@
 ## 1. Document Control
 
 Version: 0.1
-Status: Draft
+Status: Approved
 Owner: Send Manna Too LLC
 Canonical Source: Markdown in Git repository
 Applies To: All Send Manna Too LLC Business Governance Framework documents and final deliverables
-Effective Date: TBD
+Effective Date: 2026-07-08
 Review Cycle: At least annually or upon material governance, business, legal, commercial, or publication-format change
 
 ## 2. Purpose
@@ -173,7 +173,7 @@ Recurring exceptions may indicate that the quality standard, publication templat
 ## 16. Approval
 
 Approved By: Timothy Simmons / Send Manna Too LLC
-Approval Date: TBD
-Effective Date: TBD
+Approval Date: 2026-07-08
+Effective Date: 2026-07-08
 
 This standard remains in draft status until approved and committed as part of the Release 0.1 foundation baseline.
