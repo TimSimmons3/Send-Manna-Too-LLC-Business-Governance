@@ -6,7 +6,7 @@
 | --- | --- |
 | Document | Word Publication Template Requirements |
 | Owner | Send Manna Too LLC |
-| Status | In Development |
+| Status | Approved |
 | Canonical Source | Markdown in Git |
 | Release | 0.2 |
 

@@ -6,7 +6,7 @@
 | --- | --- |
 | Document | Release 0.2 Publication Templates and Operating Closeout Plan |
 | Owner | Send Manna Too LLC |
-| Status | In Development |
+| Status | Approved |
 | Canonical Source | Markdown in Git |
 | Release | 0.2 |
 
