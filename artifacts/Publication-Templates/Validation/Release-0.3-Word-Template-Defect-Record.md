@@ -17,7 +17,7 @@ The current generated Word output does not visually meet that placement requirem
 
 ## Impact
 
-The Word binary artifact should not be treated as approved until the placement issue is corrected or a formal exception is documented.
+The Word binary artifact should not be treated as approved until the placement issue is corrected or an approved exception is documented.
 
 The Markdown-controlled Word template specification remains valid and should continue to govern the intended artifact design.
 
