@@ -1,5 +1,16 @@
 # Changelog
 
+## Release 0.5 - Publication Workflow Validation and Operating Use Test
+
+Status: Complete
+
+- Added the Release 0.5 publication workflow validation and operating use test plan.
+- Generated a sample Word DOCX publication output from the canonical Document Hierarchy Standard source at docs/Standards/Document-Hierarchy-Standard.md.
+- Recorded the sample Word DOCX artifact checksum: f854ac5ce1d9772e08ecaa2017f7731232e1862eb57d9f87fa3a9580c72803ba.
+- Created Release 0.5 publication workflow validation notes documenting automated validation, source-path discovery, output checksum, and manual Mac visual validation.
+- Confirmed Markdown in Git remains canonical and the generated Word DOCX is publication-only.
+- Added the Release 0.5 closeout record.
+
 ## Release 0.4 - Word Publication Template Remediation
 
 Status: Complete
