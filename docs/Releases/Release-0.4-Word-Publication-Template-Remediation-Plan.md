@@ -6,7 +6,7 @@ Release 0.4 - Word Publication Template Remediation
 
 ## Status
 
-Planned
+Complete
 
 ## Purpose
 

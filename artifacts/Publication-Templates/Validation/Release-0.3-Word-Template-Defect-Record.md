@@ -2,7 +2,7 @@
 
 ## Document Control
 
-Document Status: Open
+Document Status: Closed
 Release: 0.3
 Document Type: Defect Record
 Canonical Source: Markdown in Git
@@ -40,7 +40,7 @@ If unresolved at Release 0.3 closeout, the defect must be carried forward as a d
 
 ## Release 0.4 Remediation Result
 
-Status: Remediated pending Release 0.4 closeout.
+Status: Closed in Release 0.4.
 
 On 2026-07-09, the Word DOCX publication template was regenerated at the controlled path:
 
@@ -59,4 +59,4 @@ DOCX SHA-256:
 
 f2a4f3e98a60bd7acd0e372f6efec1d337845e365a5f7e5e8d27c6312005c5a5
 
-The Word DOCX artifact remains subject to final Release 0.4 repository validation, commit, push, closeout, tag, and backup controls.
+The Word DOCX artifact was accepted as the controlled Word publication template artifact during Release 0.4 closeout. Release tag and backup controls remain part of final release packaging.

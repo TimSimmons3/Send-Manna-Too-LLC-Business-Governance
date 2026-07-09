@@ -2,13 +2,14 @@
 
 ## Release 0.4 - Word Publication Template Remediation
 
-Status: In progress
+Status: Complete
 
 - Added the controlled Word DOCX publication template remediation candidate.
 - Remediated the FC-0002 Word logo placement defect through manual Mac visual validation.
 - Recorded the Word DOCX artifact checksum: f2a4f3e98a60bd7acd0e372f6efec1d337845e365a5f7e5e8d27c6312005c5a5.
 - Updated the Release 0.3 Word template defect record with the Release 0.4 remediation result.
 - Updated FC-0002 with the Release 0.4 remediation result pending closeout.
+- Added the Release 0.4 closeout record.
 
 ## Release 0.3 Publication Artifact Templates - 2026-07-09
 

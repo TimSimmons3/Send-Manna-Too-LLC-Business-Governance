@@ -84,7 +84,7 @@ The requirement is approved. Release 0.2 implements controlled publication requi
 ## FC-0002: Remediate Word Publication Template Logo Placement
 
 Date Added: 2026-07-09
-Status: Accepted for Backlog
+Status: Closed
 Category: Publication / Templates / Quality
 Priority: Medium
 Applies To: Word publication template artifact
@@ -105,7 +105,7 @@ Correcting the Word template will align the Word binary artifact with the approv
 
 ### Current Disposition
 
-Accepted for backlog. The Word DOCX artifact is not approved and must not be treated as a controlled publication artifact until the logo placement defect is corrected or an approved exception is documented.
+Closed in Release 0.4. The Word DOCX artifact was regenerated, visually validated on Mac, checksum-recorded, and committed at the controlled publication artifact path.
 
 ### Related Artifacts
 
@@ -115,7 +115,7 @@ Accepted for backlog. The Word DOCX artifact is not approved and must not be tre
 
 ### Release 0.4 Remediation Update
 
-Status: Remediated pending Release 0.4 closeout.
+Status: Closed in Release 0.4.
 
 On 2026-07-09, the Word DOCX publication template was regenerated at the controlled path:
 
@@ -133,4 +133,4 @@ DOCX SHA-256:
 
 f2a4f3e98a60bd7acd0e372f6efec1d337845e365a5f7e5e8d27c6312005c5a5
 
-FC-0002 may be closed during Release 0.4 closeout if final repository validation, commit, push, tag, and backup controls pass.
+FC-0002 is closed as part of Release 0.4 closeout. Release tag and backup controls remain part of the final release packaging process.
