@@ -70,7 +70,7 @@ Controlled templates will reduce formatting drift, improve professionalism, supp
 
 ### Current Disposition
 
-The requirement is approved. Release 0.2 implements controlled publication requirements and procedures. Creation of actual Word, PDF, and PowerPoint publication artifact files remains future implementation work unless separately approved.
+The requirement is approved. Release 0.2 implements controlled publication requirements and procedures. Release 0.3 has implemented controlled publication artifact specifications, a controlled branding asset record, a PowerPoint publication template artifact, and PDF export expectations. The Word binary publication template artifact remains open because the logo placement defect must be corrected or an approved exception is documented before approval.
 
 ### Related Artifacts
 

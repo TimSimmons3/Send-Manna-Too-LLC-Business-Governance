@@ -1,5 +1,38 @@
 # Changelog
 
+## Release 0.3 Publication Artifact Templates - 2026-07-09
+
+Status: In Progress
+
+### Added
+
+- Added the Release 0.3 Publication Artifact Templates Plan.
+- Added the Publication Artifact Validation Checklist.
+- Added the Release 0.3 branding asset record.
+- Added the controlled Send Manna Too LLC branding asset.
+- Added the Word publication template specification.
+- Added the PowerPoint publication template specification.
+- Added the PowerPoint publication template artifact.
+- Added the PDF export expectations artifact.
+- Added the Release 0.3 Word template logo placement defect record.
+
+### Completed
+
+- Completed controlled Markdown specifications for Word, PowerPoint, and PDF publication expectations.
+- Completed and synchronized the PowerPoint publication template artifact.
+- Completed controlled documentation of the Release 0.3 branding asset and placement expectations.
+
+### Open Items
+
+- Word binary publication template artifact is not approved.
+- Word template logo placement defect remains open because the generated Word output did not render the logo as a smaller locked upper-left brand element.
+
+### Notes
+
+- Markdown in Git remains the authoritative source.
+- PowerPoint and PDF publication artifacts remain controlled publication outputs.
+- The current Word DOCX prototype must not be treated as approved unless the defect is corrected or an approved exception is documented.
+
 ## Release 0.2 Publication Templates and Operating Closeout - 2026-07-09
 
 Status: Complete
