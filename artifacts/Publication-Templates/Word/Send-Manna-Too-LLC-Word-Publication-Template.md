@@ -28,11 +28,12 @@ artifacts/Publication-Templates/Branding/SMT-V2-Horizontal-Premium-Locked.png
 
 Approved use in Word outputs:
 
-1. Cover page branding.
-2. Title-page branding.
-3. Executive-ready opening page presentation.
+1. Small upper-left brand placement on the cover page.
+2. Small upper-left brand placement on standard document pages where technically supported.
+3. Letterhead-style or webpage-header-style presentation.
+4. Executive-ready business document presentation.
 
-Routine headers and footers may use Send Manna Too LLC firm identification text unless a smaller approved logo or mark is added through a controlled change.
+The logo should be scaled down and anchored in the upper-left area. It should not dominate the page or appear as an oversized cover-only graphic.
 
 ## Required Word Template Structure
 
@@ -50,7 +51,7 @@ The Word publication template should support the following structure:
 
 The cover page should include:
 
-1. Send Manna Too LLC branding using the approved Release 0.3 branding asset where appropriate.
+1. Send Manna Too LLC branding using a smaller upper-left placement of the approved Release 0.3 branding asset where appropriate.
 2. Document title.
 3. Document type.
 4. Version or release identifier.
@@ -63,7 +64,7 @@ The cover page should include:
 
 The Word header should support:
 
-1. Send Manna Too LLC firm identification.
+1. Small upper-left Send Manna Too LLC branding or firm identification where technically supported.
 2. Short document title where appropriate.
 3. No uncontrolled content that could conflict with the canonical Markdown source.
 

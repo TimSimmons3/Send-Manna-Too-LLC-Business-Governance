@@ -31,15 +31,22 @@ This asset may be used for Release 0.3 publication artifact templates where a ho
 
 Primary approved uses include:
 
-1. Word cover pages.
-2. PowerPoint title slides.
-3. PDF outputs generated from approved Word or PowerPoint publication artifacts.
+1. Small upper-left brand placement on Word publication templates.
+2. Small upper-left brand placement on business-report or letter-style outputs.
+3. PowerPoint title slides where the image can be scaled appropriately.
+4. PDF outputs generated from approved Word or PowerPoint publication artifacts.
+
+## Placement Requirement
+
+The asset should be scaled down and anchored in the upper-left area of the page or slide where technically supported.
+
+The intended appearance is a professional business document, letterhead, report, or webpage-style header, not an oversized cover-only graphic.
 
 ## Constraint
 
-Because this is a wide horizontal premium image, it may not be appropriate for small routine headers or footers.
+Because this is a wide horizontal premium image, it must be scaled carefully so it does not dominate routine document pages.
 
-For routine headers and footers, publication artifacts may use Send Manna Too LLC firm identification text unless a smaller approved logo or mark is added through a controlled change.
+If a smaller approved transparent logo or mark is added later, the publication templates may be updated through a controlled change.
 
 ## Governance Rule
 
