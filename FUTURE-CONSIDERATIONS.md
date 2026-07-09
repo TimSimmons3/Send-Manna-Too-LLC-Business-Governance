@@ -80,3 +80,35 @@ The requirement is approved. Release 0.2 implements controlled publication requi
 - docs/Templates/PDF-Publication-and-Export-Approach.md
 - docs/Templates/PowerPoint-Publication-Template-Requirements.md
 - docs/Procedures/Publication-and-Export-Procedure.md
+
+## FC-0002: Remediate Word Publication Template Logo Placement
+
+Date Added: 2026-07-09
+Status: Accepted for Backlog
+Category: Publication / Templates / Quality
+Priority: Medium
+Applies To: Word publication template artifact
+
+### Context
+
+Release 0.3 clarified that the approved Send Manna Too LLC logo should appear as a smaller, upper-left brand element similar to a professional webpage header, letterhead, or business report.
+
+The PowerPoint publication template achieved the intended logo placement. The generated Word DOCX artifact did not visually satisfy the same placement requirement.
+
+### Consideration
+
+Create or remediate the Word publication template artifact so the approved logo is scaled down, positioned in the upper-left area, and visually consistent with professional business-document presentation.
+
+### Rationale
+
+Correcting the Word template will align the Word binary artifact with the approved Release 0.3 specification and reduce future publication rework.
+
+### Current Disposition
+
+Accepted for backlog. The Word DOCX artifact is not approved and must not be treated as a controlled publication artifact until the logo placement defect is corrected or an approved exception is documented.
+
+### Related Artifacts
+
+- artifacts/Publication-Templates/Word/Send-Manna-Too-LLC-Word-Publication-Template.md
+- artifacts/Publication-Templates/Validation/Release-0.3-Word-Template-Defect-Record.md
+- artifacts/Publication-Templates/PowerPoint/Send-Manna-Too-LLC-PowerPoint-Publication-Template.pptx
