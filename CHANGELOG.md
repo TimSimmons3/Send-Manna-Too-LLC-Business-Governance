@@ -1,5 +1,31 @@
 # Changelog
 
+## Release 0.2 Publication Templates and Operating Closeout - 2026-07-09
+
+Status: In Development
+
+### Added
+
+- Added the Release 0.2 Publication Templates and Operating Closeout Plan.
+- Added Word Publication Template Requirements.
+- Added PDF Publication and Export Approach.
+- Added PowerPoint Publication Template Requirements.
+- Added Publication and Export Procedure.
+- Added Release Closeout Procedure.
+
+### Approved
+
+- Approved controlled publication template requirements.
+- Approved controlled publication and export procedure.
+- Approved controlled release closeout procedure.
+- Approved deferral of command-line Git push authentication remediation unless it can be resolved without delaying primary Release 0.2 deliverables.
+
+### Notes
+
+- GitHub Desktop remains the temporary push workaround.
+- Terminal-based post-push synchronization validation remains required.
+
+
 ## Release 0.1 Foundation - 2026-07-08
 
 Status: Complete
@@ -27,7 +53,7 @@ Status: Complete
 - Confirmed required Release 0.1 Markdown files are present.
 - Confirmed no non-ASCII characters in Markdown files.
 - Confirmed no trailing whitespace in Markdown files.
-- Confirmed no remaining Draft or TBD status markers in Release 0.1 deliverables.
+- Confirmed no remaining placeholder status markers in Release 0.1 deliverables.
 
 ### Notes
 

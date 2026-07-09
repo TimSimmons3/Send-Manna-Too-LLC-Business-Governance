@@ -70,9 +70,13 @@ Controlled templates will reduce formatting drift, improve professionalism, supp
 
 ### Current Disposition
 
-The requirement is approved. Template buildout remains future implementation work and is not an additional Release 0.1 deliverable.
+The requirement is approved. Release 0.2 implements controlled publication requirements and procedures. Creation of actual Word, PDF, and PowerPoint publication artifact files remains future implementation work unless separately approved.
 
 ### Related Artifacts
 
 - docs/Standards/Document-Quality-Standard.md
 - DECISIONS-LOG.md
+- docs/Templates/Word-Publication-Template-Requirements.md
+- docs/Templates/PDF-Publication-and-Export-Approach.md
+- docs/Templates/PowerPoint-Publication-Template-Requirements.md
+- docs/Procedures/Publication-and-Export-Procedure.md

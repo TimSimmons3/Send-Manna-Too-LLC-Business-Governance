@@ -217,3 +217,118 @@ Post-push validation must confirm local and remote synchronization from Terminal
 ### Related Artifacts
 
 - DECISIONS-LOG.md
+
+## DEC-0007: Adopt Controlled Publication Template Requirements
+
+Date: 2026-07-09
+Status: Approved
+Decision Owner: Send Manna Too LLC
+Decision Type: Standard / Publication
+Applies To: Release 0.2 publication template requirements
+
+### Context
+
+Release 0.2 requires controlled requirements for Word, PDF, and PowerPoint publication outputs.
+
+### Decision
+
+Adopt controlled publication template requirements for Word, PDF, and PowerPoint outputs while preserving Markdown in Git as the authoritative source of truth.
+
+### Rationale
+
+Controlled requirements reduce formatting drift, improve professionalism, and support traceability from publication outputs back to approved source content.
+
+### Impact
+
+Publication outputs must align with approved template requirements and must not replace canonical Markdown source records.
+
+### Related Artifacts
+
+- docs/Templates/Word-Publication-Template-Requirements.md
+- docs/Templates/PDF-Publication-and-Export-Approach.md
+- docs/Templates/PowerPoint-Publication-Template-Requirements.md
+
+## DEC-0008: Adopt Controlled Publication and Export Procedure
+
+Date: 2026-07-09
+Status: Approved
+Decision Owner: Send Manna Too LLC
+Decision Type: Procedure / Publication
+Applies To: Publication-ready outputs
+
+### Context
+
+Publication outputs require a repeatable procedure so Word, PDF, and PowerPoint files are generated, validated, and stored consistently.
+
+### Decision
+
+Adopt the Publication and Export Procedure as the controlled process for producing publication-ready outputs.
+
+### Rationale
+
+A controlled procedure reduces output drift, supports confidentiality markings, preserves traceability, and reinforces that publication formats are not authoritative source records.
+
+### Impact
+
+Publication outputs must be validated and traceable before approval or distribution.
+
+### Related Artifacts
+
+- docs/Procedures/Publication-and-Export-Procedure.md
+
+## DEC-0009: Adopt Controlled Release Closeout Procedure
+
+Date: 2026-07-09
+Status: Approved
+Decision Owner: Send Manna Too LLC
+Decision Type: Procedure / Release Management
+Applies To: Framework release closeout
+
+### Context
+
+Framework releases require consistent validation, approval, synchronization, tagging, backup, checksum validation, and handoff.
+
+### Decision
+
+Adopt the Release Closeout Procedure as the controlled process for closing framework releases.
+
+### Rationale
+
+A controlled closeout process improves recoverability, auditability, and release discipline.
+
+### Impact
+
+Future releases must follow the closeout procedure unless an approved exception is recorded.
+
+### Related Artifacts
+
+- docs/Procedures/Release-Closeout-Procedure.md
+
+## DEC-0010: Defer Command-Line Git Push Authentication Remediation
+
+Date: 2026-07-09
+Status: Approved
+Decision Owner: Send Manna Too LLC
+Decision Type: Operating Model / Exception
+Applies To: Repository push workflow
+
+### Context
+
+Command-line Git push authentication remains unresolved, while GitHub Desktop push remains available and validated.
+
+### Decision
+
+Defer command-line Git push authentication remediation from Release 0.2 unless it can be resolved without delaying primary release deliverables.
+
+### Rationale
+
+Release 0.2 should prioritize controlled publication and closeout capabilities without being blocked by authentication troubleshooting.
+
+### Impact
+
+GitHub Desktop remains the approved temporary push workaround. Terminal-based post-push validation remains required.
+
+### Related Artifacts
+
+- DEC-0006
+- docs/Releases/Release-0.2-Publication-Templates-and-Operating-Closeout-Plan.md
