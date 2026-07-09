@@ -1,5 +1,18 @@
 # Changelog
 
+## Release 0.6 - Publication Procedure Refinement and Repeatability Validation
+
+Status: Complete
+
+- Added the Release 0.6 publication procedure refinement and repeatability validation plan.
+- Generated a second sample Word DOCX publication output from the canonical Document Quality Standard source at docs/Standards/Document-Quality-Standard.md.
+- Recorded the sample Word DOCX artifact checksum: 8f451871681a98a0fb8f5be49ac9df10f48801bd3df3266c4c05b6f86f49633e.
+- Created Release 0.6 publication repeatability validation notes documenting technical validation, output checksum, and manual Mac visual validation.
+- Confirmed the publication workflow is repeatable against a second standards-path canonical Markdown source.
+- Confirmed no publication procedure update is required from this repeatability validation.
+- Confirmed Markdown in Git remains canonical and the generated Word DOCX is publication-only.
+- Added the Release 0.6 closeout record.
+
 ## Release 0.5 - Publication Workflow Validation and Operating Use Test
 
 Status: Complete
