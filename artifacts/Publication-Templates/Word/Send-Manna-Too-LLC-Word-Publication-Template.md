@@ -119,3 +119,19 @@ The planned Word binary publication artifact should be created after this specif
 Planned path:
 
 artifacts/Publication-Templates/Word/Send-Manna-Too-LLC-Word-Publication-Template.docx
+
+## Release 0.4 Approved Binary Artifact Candidate
+
+The Word binary publication artifact was regenerated during Release 0.4 to remediate FC-0002.
+
+Controlled artifact path:
+
+artifacts/Publication-Templates/Word/Send-Manna-Too-LLC-Word-Publication-Template.docx
+
+SHA-256:
+
+f2a4f3e98a60bd7acd0e372f6efec1d337845e365a5f7e5e8d27c6312005c5a5
+
+Manual Mac visual validation confirmed that the logo placement satisfies the smaller upper-left placement requirement and that the footer and page numbering expectations are met where technically supported.
+
+The DOCX remains a publication artifact only. Markdown in Git remains canonical.

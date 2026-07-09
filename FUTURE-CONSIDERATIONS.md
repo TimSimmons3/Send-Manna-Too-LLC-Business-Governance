@@ -112,3 +112,25 @@ Accepted for backlog. The Word DOCX artifact is not approved and must not be tre
 - artifacts/Publication-Templates/Word/Send-Manna-Too-LLC-Word-Publication-Template.md
 - artifacts/Publication-Templates/Validation/Release-0.3-Word-Template-Defect-Record.md
 - artifacts/Publication-Templates/PowerPoint/Send-Manna-Too-LLC-PowerPoint-Publication-Template.pptx
+
+### Release 0.4 Remediation Update
+
+Status: Remediated pending Release 0.4 closeout.
+
+On 2026-07-09, the Word DOCX publication template was regenerated at the controlled path:
+
+artifacts/Publication-Templates/Word/Send-Manna-Too-LLC-Word-Publication-Template.docx
+
+The logo placement was manually visually validated on Mac and confirmed to satisfy the Release 0.4 remediation objective:
+
+1. Smaller upper-left logo placement.
+2. Professional business-report, letterhead, or webpage-header style.
+3. Footer includes Property and Confidential.
+4. Page numbering follows Page 1 of X Pages where technically supported.
+5. No unintended client data observed.
+
+DOCX SHA-256:
+
+f2a4f3e98a60bd7acd0e372f6efec1d337845e365a5f7e5e8d27c6312005c5a5
+
+FC-0002 may be closed during Release 0.4 closeout if final repository validation, commit, push, tag, and backup controls pass.
