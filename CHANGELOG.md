@@ -1,5 +1,30 @@
 # Changelog
 
+## Release 1.0 - Commercial and Contracting Governance Policy
+
+### Added
+
+- Added the Release 1.0 commercial and contracting governance policy plan.
+- Added the Commercial and Contracting Governance Policy.
+
+### Completed
+
+- Defined commercial governance principles, proposal governance, pricing governance, contracting governance, obligation review, signature authority, client-facing commercial commitments, commercial exceptions, commercial risk escalation, and commercial evidence requirements.
+- Confirmed Release 1.0 remained limited to one controlled policy under docs/Foundation.
+- Preserved Markdown in Git as canonical.
+- Kept Word, PDF, and PowerPoint publication artifacts out of scope.
+
+### Validation
+
+- Reviewed the policy against the Constitution, Governance and Operating Authority Policy, Client Engagement Governance Policy, Document Hierarchy Standard, Document Quality Standard, and Release 0.7 planning record.
+- Confirmed the policy does not create contract templates, draft legal clauses, provide legal advice, create pricing sheets, or define confidentiality, records retention, third-party, external deliverable, or publication procedure detail.
+- Confirmed the policy was created as one policy only.
+- Confirmed ASCII validation, trailing whitespace validation, staged diff validation, and Git synchronization passed.
+
+### Notes
+
+- The Commercial and Contracting Governance Policy governs internal commercial and contracting control and does not replace signed agreements, legal advice, client-specific scopes of work, or professional judgment.
+
 ## Release 0.9 - Client Engagement Governance Policy
 
 Status: Complete
