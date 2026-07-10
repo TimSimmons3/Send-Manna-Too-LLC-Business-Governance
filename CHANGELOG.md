@@ -1,5 +1,15 @@
 # Changelog
 
+## Release 0.9 - Client Engagement Governance Policy
+
+Status: In Progress
+
+- Added the Release 0.9 client engagement governance policy plan.
+- Created the Client Engagement Governance Policy as the second controlled governance policy.
+- Defined client qualification, engagement authorization, scope control, assumptions and dependencies, client communications, deliverable governance, engagement changes, risk escalation, client acceptance, engagement closeout, and required engagement records.
+- Confirmed Release 0.9 remains limited to one policy only.
+- Confirmed Markdown in Git remains canonical and publication artifacts remain out of scope unless separately approved.
+
 ## Release 0.8 - Governance and Operating Authority Policy
 
 Status: Complete
