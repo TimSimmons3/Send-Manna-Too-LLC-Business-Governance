@@ -1,5 +1,15 @@
 # Changelog
 
+## Release 0.8 - Governance and Operating Authority Policy
+
+Status: Complete
+
+- Added the Release 0.8 governance and operating authority policy plan.
+- Created the Governance and Operating Authority Policy as the first controlled governance policy.
+- Defined governance authority, operating authority, decision rights, approval expectations, exception handling, controlled operating discipline, and relationship to the Constitution.
+- Confirmed Release 0.8 remained limited to one policy only.
+- Confirmed Markdown in Git remains canonical and publication artifacts remain out of scope unless separately approved.
+
 ## Release 0.7 - Core Governance Policy Set Planning
 
 Status: Complete
