@@ -9,6 +9,7 @@ Status: Complete
 - Defined governance authority, operating authority, decision rights, approval expectations, exception handling, controlled operating discipline, and relationship to the Constitution.
 - Confirmed Release 0.8 remained limited to one policy only.
 - Confirmed Markdown in Git remains canonical and publication artifacts remain out of scope unless separately approved.
+- Added the Release 0.8 closeout record.
 
 ## Release 0.7 - Core Governance Policy Set Planning
 
