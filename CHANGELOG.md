@@ -1,5 +1,30 @@
 # Changelog
 
+## Release 1.2 - Third-Party and Partner Governance Policy
+
+### Added
+
+- Added the Release 1.2 third-party and partner governance policy plan.
+- Added the Third-Party and Partner Governance Policy.
+
+### Completed
+
+- Defined governance expectations for referral partners, subcontractors, vendors, external collaborators, strategic partners, partner qualification, partner authorization, role clarity, client-facing partner involvement, partner information sharing boundaries, commercial boundaries, conflicts of interest, partner conduct, partner-related evidence, risk escalation, and exceptions.
+- Defined policy relationships to client engagement governance, commercial and contracting governance, information handling and confidentiality governance, governance authority, document hierarchy, document quality, and future records, external deliverable, cybersecurity, vendor security, data classification, procurement, publication, and technical standards.
+
+### Validation
+
+- Confirmed the Release 1.1 baseline was clean and synchronized before Release 1.2 drafting began.
+- Confirmed the Release 1.2 plan was created, validated, committed, pushed, and synchronized before policy drafting.
+- Confirmed the Third-Party and Partner Governance Policy did not already exist before drafting.
+- Reviewed the Constitution, Document Hierarchy Standard, Document Quality Standard, Governance and Operating Authority Policy, Client Engagement Governance Policy, Commercial and Contracting Governance Policy, Information Handling and Confidentiality Policy, Release 0.7 planning record, and changelog for hierarchy alignment and duplicate guidance risk.
+- Confirmed the policy remains governance-level and does not create vendor security technical control standards, cybersecurity assessment procedures, procurement procedures, third-party onboarding checklists, referral agreement templates, subcontractor agreement templates, NDA clauses, legal advice, contract templates, records retention schedules, external deliverable review procedures, or publication workflow requirements.
+- Confirmed Markdown ASCII validation, trailing whitespace validation, and `git diff --check` passed for the policy.
+
+### Notes
+
+- The Third-Party and Partner Governance Policy establishes the governing baseline for third-party and partner relationships until more specific approved records, external deliverable, cybersecurity, vendor security, data classification, procurement, publication, or technical standards are established.
+
 ## Release 1.1 - Information Handling and Confidentiality Policy
 
 ### Added
