@@ -1,5 +1,30 @@
 # Changelog
 
+## Release 1.1 - Information Handling and Confidentiality Policy
+
+### Added
+
+- Added the Release 1.1 information handling and confidentiality policy plan.
+- Added the Information Handling and Confidentiality Policy.
+
+### Completed
+
+- Defined governance expectations for firm information, client information, sensitive information, confidentiality expectations, confidentiality markings, need-to-know access, information sharing boundaries, client-provided evidence handling, working drafts and internal notes, external disclosure limits, confidentiality-related escalation, and confidentiality exceptions.
+- Defined policy relationships to client engagement governance, commercial and contracting governance, and future records, third-party, external deliverable, cybersecurity, data classification, publication, and technical standards.
+
+### Validation
+
+- Confirmed the Release 1.0 baseline was clean and synchronized before Release 1.1 drafting began.
+- Confirmed the Release 1.1 plan was created, validated, committed, pushed, and synchronized before policy drafting.
+- Confirmed the Information Handling and Confidentiality Policy did not already exist before drafting.
+- Reviewed the Constitution, Document Hierarchy Standard, Document Quality Standard, Governance and Operating Authority Policy, Client Engagement Governance Policy, Commercial and Contracting Governance Policy, Release 0.7 planning record, and changelog for hierarchy alignment and duplicate guidance risk.
+- Confirmed the policy remains governance-level and does not create cybersecurity technical control standards, records retention schedules, third-party onboarding procedures, external deliverable review procedures, NDA clauses, legal advice, or contract templates.
+- Confirmed Markdown ASCII validation, trailing whitespace validation, and `git diff --check` passed for the policy.
+
+### Notes
+
+- The Information Handling and Confidentiality Policy establishes the governing baseline for information handling and confidentiality until more specific approved records, third-party, external deliverable, cybersecurity, data classification, publication, or technical standards are established.
+
 ## Release 1.0 - Commercial and Contracting Governance Policy
 
 ### Added
