@@ -1,5 +1,32 @@
 # Changelog
 
+## Release 1.4 - External Deliverable Governance Policy
+
+### Added
+
+- Added the Release 1.4 external deliverable governance policy plan.
+- Added the External Deliverable Governance Policy.
+
+### Completed
+
+- Defined governance expectations for external-release authorization, deliverable purpose, audience, recipient, permitted reliance, ownership, release authority, pre-release governance review, final-status determination, version and source traceability, authorized distribution, redistribution and reliance restrictions, post-approval changes, correction, withdrawal, replacement, recipient notification, client acceptance or acknowledgment, external-deliverable records, risk escalation, exceptions, and noncompliance.
+- Distinguished authority to create content, generate a publication output, and release a deliverable externally.
+- Defined the external-release and post-issuance lifecycle while preserving existing authority for client engagement, commercial commitments, confidentiality, third-party and partner involvement, records and evidence, document quality, publication execution, and governance decision rights.
+
+### Validation
+
+- Confirmed the Release 1.3 baseline was clean and synchronized before Release 1.4 drafting began.
+- Confirmed the Release 1.4 plan was created, validated, committed, pushed, and synchronized before policy drafting.
+- Confirmed the External Deliverable Governance Policy did not already exist before drafting.
+- Reviewed the Constitution, Document Hierarchy Standard, Document Quality Standard, Governance and Operating Authority Policy, Client Engagement Governance Policy, Commercial and Contracting Governance Policy, Information Handling and Confidentiality Policy, Third-Party and Partner Governance Policy, Records Evidence and Retention Policy, Publication and Export Procedure, Publication Artifact Validation Checklist, publication template requirements, Release Closeout Procedure, Release 0.7 planning record, Decision Register, Future Considerations Register, and changelog for hierarchy alignment and duplicate guidance risk.
+- Confirmed the policy remains governance-level and does not create publication artifacts, publication templates, export-tool instructions, detailed formatting rules, duplicate quality or publication procedures, duplicate client engagement procedures, contract clauses, legal advice, pricing procedures, retention schedules, technical cybersecurity controls, detailed evidence checklists, workflow automation, electronic signature tooling, document-management software requirements, changes to the frozen Release 0.1 governance architecture, or release automation tooling.
+- Confirmed Markdown ASCII validation, trailing whitespace validation, placeholder scanning, numbered-section validation, targeted legal and commercial term scanning, staged diff validation, and Git synchronization passed for the policy.
+
+### Notes
+
+- The External Deliverable Governance Policy establishes the governing decision boundary between internally prepared work product and an externally issued deliverable.
+- Detailed publication mechanics, format-specific validation, engagement procedures, commercial controls, confidentiality controls, partner controls, and records lifecycle requirements remain governed by their existing authoritative documents.
+
 ## Release 1.3 - Records Evidence and Retention Policy
 
 ### Added
