@@ -488,3 +488,54 @@ No production publication artifact, reusable register, form, checklist, automate
 - docs/Foundation/Records-Evidence-and-Retention-Policy.md
 - docs/Foundation/External-Deliverable-Governance-Policy.md
 - DEC-0012
+
+## DEC-0014: Validate Cross-Policy Procedure Operating Use Without Additional Execution Aid
+
+Date: 2026-07-12
+Status: Approved
+Decision Owner: Send Manna Too LLC
+Decision Type: Procedure / Operating Validation
+Applies To: The Cross-Policy Exception, Escalation, Noncompliance, and Corrective-Action Procedure and any proposed supporting execution aid
+
+### Context
+
+Release 1.8 executed six fictional, non-client-specific operating-use and repeatability scenarios against the approved cross-policy procedure.
+
+The scenarios covered a prospective exception, completed confidentiality noncompliance, third-party suspension and corrective action, external-deliverable correction and replacement, repeated exception extension, and conflicting cross-policy authority.
+
+The procedure produced materially consistent classification, authority, escalation, corrective-action, evidence, closure, recurrence, and precedence outcomes. No confirmed procedure defect or material operating ambiguity was identified.
+
+The tests identified recurring manual field-consolidation effort, but that effort did not cause field omissions, inconsistent status, duplicate records, late closure criteria, materially inconsistent outcomes, or loss of decision or evidence traceability.
+
+### Decision
+
+Validate the Cross-Policy Exception, Escalation, Noncompliance, and Corrective-Action Procedure for representative operating use and repeatability.
+
+Retain the procedure without amendment.
+
+Do not create a reusable matter-record template, exception form, corrective-action tracker, escalation form, checklist, register, automated workflow, ticketing requirement, or training artifact at this time.
+
+Require new operating evidence and separately approved scope before creating an execution aid or changing the procedure.
+
+### Rationale
+
+The procedure was executable across all six scenarios, preserved governance and domain-specific authority, supported complete and auditable records, and produced materially repeatable outcomes.
+
+Convenience and manual consolidation effort alone do not justify new controlled tooling. Premature creation of an execution aid would expand scope without evidence of a recurring control problem.
+
+### Impact
+
+The Release 1.7 procedure remains the approved cross-policy operating method.
+
+No substantive policy amendment, procedure amendment, supporting template, checklist, register, tracker, workflow, training artifact, or production publication artifact is created by this decision.
+
+Actual operating matters should continue to be reviewed for recurring omission, inconsistency, duplication, late closure criteria, control failure, or traceability loss. Any later execution-aid proposal requires controlled evidence and separate approval.
+
+No new Future Considerations entry is required by this decision.
+
+### Related Artifacts
+
+- docs/Releases/Release-1.8-Cross-Policy-Procedure-Operating-Use-and-Repeatability-Validation-Plan.md
+- docs/Releases/Release-1.8-Cross-Policy-Procedure-Operating-Use-and-Repeatability-Validation-Record.md
+- docs/Procedures/Cross-Policy-Exception-Escalation-Noncompliance-and-Corrective-Action-Procedure.md
+- DEC-0013

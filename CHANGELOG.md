@@ -1,5 +1,40 @@
 # Changelog
 
+## Release 1.8 - Cross-Policy Procedure Operating-Use and Repeatability Validation
+
+### Added
+
+- Added the Release 1.8 operating-use and repeatability validation plan.
+- Added the Release 1.8 validation record with six fictional scenario executions, cross-scenario repeatability analysis, defect classification, authority and precedence review, evidence review, and residual limitations.
+- Added DEC-0014 to validate the cross-policy procedure without an additional execution aid.
+
+### Completed
+
+- Executed six fictional, non-client-specific scenarios covering prospective exception handling, completed confidentiality noncompliance, third-party suspension, external-deliverable correction, repeated exception extension, and conflicting cross-policy authority.
+- Confirmed materially consistent classification, authority, escalation, containment, corrective-action, evidence, closure, recurrence, and precedence outcomes.
+- Validated the Release 1.7 procedure without amendment.
+- Determined that recurring manual field-consolidation effort created manageable execution friction but no recurring control failure.
+- Determined that no reusable template, form, checklist, register, tracker, workflow, ticketing requirement, training artifact, or other execution aid is justified at this time.
+- Preserved all seven approved policy bodies without change.
+- Created no production Word, PDF, or PowerPoint artifact.
+
+### Validation
+
+- Confirmed the Release 1.8 plan was committed, pushed, and synchronized at `f943bb1` before scenario execution.
+- Validated the 2,068-line outside-repository candidate at SHA-256 `cfcf511143e4ba06a1d9e2d90816eb4a9b68968c445ef0cf3ed21e5b3cd29776`.
+- Promoted the approved validation record at SHA-256 `58c6bc2edebaa9c07ee92144c4e5a529e1280f6d8b1daa3f6444acba012f47f1` after removing candidate-only controls.
+- Confirmed six unique scenario identifiers and thirty-three numbered validation-record sections.
+- Confirmed repeatability, authority, precedence, duplicate-guidance, evidence sufficiency, privacy, misuse-risk, executive, red-team, and editorial reviews passed.
+- Confirmed no procedure defect, material ambiguity, policy amendment, or execution-aid threshold was identified.
+- Confirmed ASCII validation, trailing-whitespace validation, drafting-marker scanning, and outside-repository candidate validation passed.
+
+### Notes
+
+- Release 1.8 is an operating-use and repeatability validation release, not a substantive policy or procedure amendment.
+- Markdown in Git remains canonical.
+- `FUTURE-CONSIDERATIONS.md` is not changed because no specific execution aid or procedure correction was approved or formally deferred.
+- Production publication remains deferred under DEC-0011.
+
 ## Release 1.7 - Cross-Policy Exception, Escalation, Noncompliance, and Corrective-Action Operationalization
 
 ### Added
