@@ -539,3 +539,65 @@ No new Future Considerations entry is required by this decision.
 - docs/Releases/Release-1.8-Cross-Policy-Procedure-Operating-Use-and-Repeatability-Validation-Record.md
 - docs/Procedures/Cross-Policy-Exception-Escalation-Noncompliance-and-Corrective-Action-Procedure.md
 - DEC-0013
+
+## DEC-0015: Adopt Client Engagement Lifecycle Procedure
+
+Date: 2026-07-12
+Status: Approved
+Decision Owner: Send Manna Too LLC
+Decision Type: Procedure / Operating Model
+Applies To: Prospective and active client engagements governed by the Client Engagement Governance Policy
+
+### Context
+
+The Client Engagement Governance Policy establishes requirements for qualification, authorization, scope control, assumptions and dependencies, client communications, deliverable governance, engagement changes, escalation, acceptance, closeout, and engagement records.
+
+A twenty-three-requirement no-loss mapping confirmed that the policy and supporting governance documents did not collectively provide one consolidated execution sequence, lifecycle-state model, decision-gate structure, role handoff method, or closeout method.
+
+Release 1.9 validated the proposed operating method through six fictional, non-client-specific scenarios covering unclear fit and capacity, acceptance without authorization, informal scope expansion, dependency failure, unclear external-release authority, and closeout with unresolved follow-up work.
+
+### Decision
+
+Adopt the Client Engagement Lifecycle Procedure as the controlled operating method for executing the Client Engagement Governance Policy.
+
+The procedure is subordinate to the Constitution and applicable policies. It does not create approval, signature, commercial, disclosure, partner, external-release, records-disposition, legal, or professional authority.
+
+Cross-policy exceptions, noncompliance, escalation, corrective action, reopening, recurrence, and root-cause review remain governed by the Cross-Policy Exception, Escalation, Noncompliance, and Corrective-Action Procedure.
+
+External-deliverable release, final-status determination, authorized recipients, distribution, reliance, publication validation, issuance, correction, withdrawal, replacement, notification, and post-issuance control remain governed by the External Deliverable Governance Policy and applicable publication controls.
+
+Do not create a reusable intake form, qualification checklist, authorization form, scope template, dependency log, communication log, change form, deliverable tracker, acceptance form, closeout checklist, register, automated workflow, ticketing requirement, or training artifact without new operating evidence and separately approved scope.
+
+### Rationale
+
+One controlled lifecycle reduces informal acceptance, unauthorized starts, uncontrolled scope expansion, weak dependency management, unclear client communications, premature acceptance assumptions, incomplete closeout, and uncontrolled follow-up work.
+
+The procedure provides a proportionate and auditable method without duplicating policy authority, mandating software, or creating unsupported tooling.
+
+### Impact
+
+The Client Engagement Lifecycle Procedure becomes the approved execution method for prospective and active client engagements under the Client Engagement Governance Policy.
+
+The procedure establishes thirteen lifecycle states and controlled gates for intake, qualification, acceptance, authorization, initiation, material change, external-release handoff, client acceptance, and closeout.
+
+All seven approved policy bodies remain unchanged.
+
+No production Word, PDF, or PowerPoint artifact is created.
+
+Actual operating use should continue to be reviewed for recurring omissions, inconsistent decisions, duplicate records, late closure criteria, authority confusion, or traceability loss. Any future execution-aid proposal requires controlled evidence and separate approval.
+
+### Related Artifacts
+
+- docs/Releases/Release-1.9-Client-Engagement-Lifecycle-Operationalization-Plan.md
+- docs/Releases/Release-1.9-Client-Engagement-Lifecycle-Operationalization-Record.md
+- docs/Procedures/Client-Engagement-Lifecycle-Procedure.md
+- docs/Foundation/Client-Engagement-Governance-Policy.md
+- docs/Foundation/Governance-and-Operating-Authority-Policy.md
+- docs/Foundation/Commercial-and-Contracting-Governance-Policy.md
+- docs/Foundation/Information-Handling-and-Confidentiality-Policy.md
+- docs/Foundation/Third-Party-and-Partner-Governance-Policy.md
+- docs/Foundation/Records-Evidence-and-Retention-Policy.md
+- docs/Foundation/External-Deliverable-Governance-Policy.md
+- docs/Procedures/Cross-Policy-Exception-Escalation-Noncompliance-and-Corrective-Action-Procedure.md
+- DEC-0013
+- DEC-0014
