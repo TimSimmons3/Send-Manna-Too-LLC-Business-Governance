@@ -601,3 +601,81 @@ Actual operating use should continue to be reviewed for recurring omissions, inc
 - docs/Procedures/Cross-Policy-Exception-Escalation-Noncompliance-and-Corrective-Action-Procedure.md
 - DEC-0013
 - DEC-0014
+
+## DEC-0016: Adopt External Deliverable Lifecycle Procedure
+
+Date: 2026-07-12
+Status: Approved
+Decision Owner: Send Manna Too LLC
+Decision Type: Procedure / Operating Model
+Applies To: External deliverables governed by the External Deliverable Governance Policy
+
+### Context
+
+The External Deliverable Governance Policy establishes requirements for deliverable status, purpose, audience, recipient, intended use, reliance, ownership, release authority, pre-release review, final-status determination, version and issuance traceability, authorized distribution, changes after approval, correction, withdrawal, replacement, notification, acceptance, records, escalation, exceptions, and noncompliance.
+
+A twenty-four-requirement no-loss mapping confirmed that the policy and supporting governance documents did not collectively provide one consolidated normal-state execution sequence, process-state model, decision-gate structure, role handoff method, issuance method, post-issuance method, or external-deliverable record-closure method.
+
+Release 2.0 validated the proposed operating method through six fictional, non-client-specific scenarios covering a routine final release, a client review copy, an unresolved-authority and recipient hold, a material change after approval, a misdirected and materially defective issued deliverable, and unclear acceptance with an open post-issuance issue.
+
+All six scenarios passed. No confirmed policy defect, procedure defect, material operating ambiguity, boundary ambiguity, required policy amendment, or required supporting-procedure amendment was identified.
+
+### Decision
+
+Adopt the External Deliverable Lifecycle Procedure as the controlled operating method for executing the External Deliverable Governance Policy.
+
+The procedure is subordinate to the Constitution and applicable policies. It does not create approval, signature, commercial, disclosure, partner, external-release, records-disposition, legal, regulatory, insurance, tax, or professional authority.
+
+The Client Engagement Lifecycle Procedure remains the controlled client-engagement operating method and external-release handoff source.
+
+The Publication and Export Procedure and Publication Artifact Validation Checklist remain the controlled methods for publication-output preparation and format-specific validation. Publication readiness or validation does not establish external-release authority.
+
+Cross-policy exceptions, noncompliance, escalation, corrective action, reopening, recurrence, and root-cause review remain governed by the Cross-Policy Exception, Escalation, Noncompliance, and Corrective-Action Procedure.
+
+Commercial, confidentiality, third-party, records, legal, contractual, and professional requirements remain governed by their applicable authorities.
+
+Do not create a release-request form, pre-release checklist, approval form, recipient register, distribution tracker, delivery log, acceptance form, correction form, withdrawal form, replacement form, notification template, closeout checklist, automated workflow, ticketing requirement, or training artifact without new operating evidence and separately approved scope.
+
+### Rationale
+
+One controlled lifecycle reduces inferred approval, recipient error, uncontrolled reliance, weak issuance evidence, stale approval, incomplete post-issuance response, lost issuance history, and premature closure.
+
+The procedure provides a proportionate and auditable method from release-request initiation through issuance, client review or acceptance coordination, post-issuance action, and external-deliverable record closure.
+
+The procedure preserves the distinction among authority to create, publish, and release; separates deliverable status from operating-process state; coordinates required subject-matter reviews without duplicating them; and supports normal and post-issuance execution without mandating software or unsupported tooling.
+
+### Impact
+
+The External Deliverable Lifecycle Procedure becomes the approved execution method for external deliverables governed by the External Deliverable Governance Policy.
+
+The procedure establishes nine policy-defined deliverable statuses, twelve operating-process states, eight control gates, and fifteen role definitions.
+
+All twenty-four continuing external-deliverable requirement groups remain supported.
+
+All seven approved policy bodies remain unchanged.
+
+The Client Engagement Lifecycle Procedure, Publication and Export Procedure, Publication Artifact Validation Checklist, Cross-Policy Exception, Escalation, Noncompliance, and Corrective-Action Procedure, and Release Closeout Procedure remain unchanged.
+
+No reusable form, checklist, register, tracker, workflow, ticketing requirement, training artifact, or production Word, PDF, or PowerPoint artifact is created.
+
+Actual operating use should continue to be reviewed for recurring omissions, inconsistent decisions, duplicate records, recipient errors, weak delivery evidence, stale approval, delayed notification, authority confusion, premature closure, or traceability loss. Any future execution-aid proposal requires new operating evidence and separate approval.
+
+No new Future Considerations entry is required by this decision.
+
+### Related Artifacts
+
+- docs/Releases/Release-2.0-External-Deliverable-Lifecycle-Operationalization-Plan.md
+- docs/Releases/Release-2.0-External-Deliverable-Lifecycle-Operationalization-Record.md
+- docs/Procedures/External-Deliverable-Lifecycle-Procedure.md
+- docs/Foundation/External-Deliverable-Governance-Policy.md
+- docs/Foundation/Governance-and-Operating-Authority-Policy.md
+- docs/Foundation/Client-Engagement-Governance-Policy.md
+- docs/Foundation/Commercial-and-Contracting-Governance-Policy.md
+- docs/Foundation/Information-Handling-and-Confidentiality-Policy.md
+- docs/Foundation/Third-Party-and-Partner-Governance-Policy.md
+- docs/Foundation/Records-Evidence-and-Retention-Policy.md
+- docs/Procedures/Client-Engagement-Lifecycle-Procedure.md
+- docs/Procedures/Publication-and-Export-Procedure.md
+- docs/Checklists/Publication-Artifact-Validation-Checklist.md
+- docs/Procedures/Cross-Policy-Exception-Escalation-Noncompliance-and-Corrective-Action-Procedure.md
+- DEC-0015
