@@ -332,3 +332,47 @@ GitHub Desktop remains the approved temporary push workaround. Terminal-based po
 
 - DEC-0006
 - docs/Releases/Release-0.2-Publication-Templates-and-Operating-Closeout-Plan.md
+
+## DEC-0011: Defer Framework Production Publication to a Controlled End-Stage Batch
+
+Date: 2026-07-12
+Status: Approved
+Decision Owner: Send Manna Too LLC
+Decision Type: Roadmap / Publication
+Applies To: Framework production publication, controlled rollout, and final closeout
+
+### Context
+
+The controlled publication requirements, templates, procedure, validation checklist, branding asset, and repeatability evidence are complete. The substantive governance framework and its operationalization roadmap remain under controlled development.
+
+Creating production Word artifacts incrementally would increase regeneration, validation, version-control, packaging, and supersession effort while the canonical framework is still being normalized and operationalized.
+
+### Decision
+
+Defer production publication of the complete framework to one dedicated controlled end-stage release.
+
+Production Word artifacts shall not be generated incrementally during policy-development or operationalization releases. The dedicated production publication release shall occur after substantive framework content and required operationalization artifacts are stable and before final framework closeout or controlled rollout.
+
+Markdown in Git remains canonical. Release 1.5 records and schedules the production publication work but does not create production publication artifacts.
+
+### Rationale
+
+A single controlled production batch minimizes scope creep, rework, formatting drift, competing final versions, and repeated validation overhead while preserving source-to-publication traceability.
+
+### Impact
+
+The future production publication release must approve the artifact inventory and control document metadata, branding, confidentiality markings, page numbering, source traceability, technical validation, visual validation, checksums, manifest, packaging, supersession, and regeneration.
+
+Production publication remains separate from publication-template completion and shall not delay the approved policy-normalization and operationalization roadmap.
+
+### Related Artifacts
+
+- docs/Releases/Release-1.5-Core-Governance-Policy-Set-Completion-Review-and-Next-Phase-Planning-Plan.md
+- docs/Releases/Release-1.5-Core-Governance-Policy-Set-Completion-Review-and-Next-Phase-Planning-Record.md
+- docs/Procedures/Publication-and-Export-Procedure.md
+- docs/Checklists/Publication-Artifact-Validation-Checklist.md
+- docs/Templates/Word-Publication-Template-Requirements.md
+- DEC-0003
+- DEC-0005
+- DEC-0007
+- DEC-0008

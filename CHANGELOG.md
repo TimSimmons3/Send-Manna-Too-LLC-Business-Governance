@@ -1,5 +1,38 @@
 # Changelog
 
+## Release 1.5 - Core Governance Policy Set Completion Review and Next-Phase Planning
+
+### Added
+
+- Added the Release 1.5 core governance policy set completion review and next-phase planning plan.
+- Added the Release 1.5 completion review and next-phase planning record.
+- Added DEC-0011 to defer complete-framework production publication to one controlled end-stage batch.
+
+### Completed
+
+- Confirmed that Releases 0.8 through 1.4 completed the seven-policy core governance set approved in Release 0.7.
+- Confirmed that every explicitly named controlled supporting standard, procedure, checklist, template requirement, and policy referenced by the seven-policy set exists.
+- Confirmed that publication-template and publication-workflow capability is complete through Release 0.6.
+- Identified stale or incomplete approval metadata and inconsistent document-control presentation across the seven completed policies as the highest-priority next-phase defect.
+- Recommended Release 1.6 as Core Policy Baseline Normalization and Controlled Adoption without changing substantive policy requirements.
+- Distinguished confirmed operationalization needs from optional future governance domains.
+- Updated FC-0001 from Partially Implemented to Implemented and removed the stale open Word-template statement.
+- Approved deferral of production Word artifacts to one dedicated end-stage release after substantive content and required operationalization are stable.
+
+### Validation
+
+- Confirmed the Release 1.4 baseline was clean, synchronized, and recoverable before Release 1.5 began.
+- Confirmed the Release 1.5 plan was validated, committed, pushed, and synchronized before the completion-review record was created.
+- Reviewed the Constitution, standards, seven policies, publication and closeout procedures, publication checklist and requirements, Release 0.7 planning record, Releases 0.2 through 1.4 evidence, Decision Register, Future Considerations Register, and changelog.
+- Confirmed Release 1.5 remained planning-only and created no substantive policy, standard, procedure, playbook, template, checklist, publication artifact, implementation tool, automation, or technical control.
+- Confirmed Markdown ASCII validation, trailing-whitespace validation, drafting-marker scanning, staged-diff validation, and Git synchronization passed for the Release 1.5 plan and completion-review record.
+
+### Notes
+
+- The seven-policy core governance set is complete in substance.
+- Release 1.6 should normalize approved status, effective date, version, release, ownership, approval, canonical-source, publication-format, review-cycle, and stable presentation metadata across the seven policies.
+- Production publication remains deferred to one controlled end-stage batch before final framework closeout or controlled rollout.
+
 ## Release 1.4 - External Deliverable Governance Policy
 
 ### Added

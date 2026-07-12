@@ -49,7 +49,7 @@ Each future consideration should use the following structure:
 ## FC-0001: Controlled Publication Templates for Final Deliverables
 
 Date Added: 2026-07-08
-Status: Partially Implemented
+Status: Implemented
 Category: Publication / Templates / Quality
 Priority: Medium
 Applies To: Final client-facing, partner-facing, executive, and publication-ready deliverables
@@ -70,7 +70,9 @@ Controlled templates will reduce formatting drift, improve professionalism, supp
 
 ### Current Disposition
 
-The requirement is approved. Release 0.2 implements controlled publication requirements and procedures. Release 0.3 has implemented controlled publication artifact specifications, a controlled branding asset record, a PowerPoint publication template artifact, and PDF export expectations. The Word binary publication template artifact remains open because the logo placement defect must be corrected or an approved exception is documented before approval.
+Implemented. Release 0.2 established controlled publication requirements and procedures. Release 0.3 established publication artifact specifications, the controlled branding asset record, the PowerPoint publication template artifact, and PDF export expectations. Release 0.4 remediated and approved the Word DOCX publication template. Releases 0.5 and 0.6 validated publication workflow use and repeatability against two canonical Markdown sources.
+
+The controlled publication-template capability is complete. Production publication of the complete governance framework is separate end-stage roadmap work governed by DEC-0011 and is not an open template requirement.
 
 ### Related Artifacts
 
@@ -80,6 +82,11 @@ The requirement is approved. Release 0.2 implements controlled publication requi
 - docs/Templates/PDF-Publication-and-Export-Approach.md
 - docs/Templates/PowerPoint-Publication-Template-Requirements.md
 - docs/Procedures/Publication-and-Export-Procedure.md
+- artifacts/Publication-Templates/Word/Send-Manna-Too-LLC-Word-Publication-Template.docx
+- artifacts/Publication-Templates/PowerPoint/Send-Manna-Too-LLC-PowerPoint-Publication-Template.pptx
+- artifacts/Publication-Samples/Release-0.5/Send-Manna-Too-LLC-Document-Hierarchy-Standard-Sample-Publication.docx
+- artifacts/Publication-Samples/Release-0.6/Send-Manna-Too-LLC-Document-Quality-Standard-Sample-Publication.docx
+- docs/Releases/Release-1.5-Core-Governance-Policy-Set-Completion-Review-and-Next-Phase-Planning-Record.md
 
 ## FC-0002: Remediate Word Publication Template Logo Placement
 
