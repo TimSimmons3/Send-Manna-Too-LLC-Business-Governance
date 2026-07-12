@@ -1,5 +1,42 @@
 # Changelog
 
+## Release 1.7 - Cross-Policy Exception, Escalation, Noncompliance, and Corrective-Action Operationalization
+
+### Added
+
+- Added the Release 1.7 cross-policy operationalization plan.
+- Added the Release 1.7 implementation record with the seven-policy baseline, eighteen-requirement no-loss mapping, candidate evidence, promotion evidence, and validation results.
+- Added the Cross-Policy Exception, Escalation, Noncompliance, and Corrective-Action Procedure.
+- Added DEC-0013 to adopt one controlled cross-policy operating procedure.
+
+### Completed
+
+- Established one operating lifecycle for intake, classification, assessment, materiality, ownership, approval, escalation, corrective action, review, extension, expiration, closure, reopening, evidence, recurrence, and root-cause review.
+- Preserved governance authority and policy-specific triggers, prohibitions, responses, records requirements, and precedence.
+- Distinguished proposed exceptions, approved exceptions, existing noncompliance, escalated issues, corrective actions, recurring issues, closed matters, and reopened matters.
+- Defined minimum exception-record and corrective-action fields.
+- Preserved domain-specific responses for client engagement, commercial and contracting, confidentiality, third-party and partner, records and evidence, and external-deliverable matters.
+- Created no template, checklist, register, tracker, automated workflow, ticketing requirement, training artifact, or production publication artifact.
+
+### Validation
+
+- Confirmed the Release 1.7 plan was committed, pushed, and synchronized at `d74cabb` before implementation.
+- Confirmed exactly seven canonical policies were inventoried and preserved.
+- Validated the 157-line mapping at SHA-256 `a5b532699632a6ab1240c4a63521b4dc3a18c88affbdda2638e233f1a7cecb32`.
+- Validated the 458-line candidate at SHA-256 `7b2f8155ce28942d745586747983a3a626692903f22dd1dd7dc4c8c8c1124f6b`.
+- Promoted the approved procedure at SHA-256 `402a9b39033119193d1ba72e5e7afd3c1969917512d535dc8672cd4de7860fa2` after removing candidate-only scaffolding.
+- Confirmed the eighteen mapped requirements remain supported.
+- Confirmed authority, precedence, duplicate-guidance, substantive-change, evidence, review, closure, and recurrence controls passed.
+- Confirmed no approved policy body changed.
+- Confirmed ASCII validation, trailing-whitespace validation, drafting-marker scanning, and `git diff --check` passed.
+
+### Notes
+
+- Release 1.7 is an operationalization release, not a substantive policy amendment.
+- Markdown in Git remains canonical.
+- Production publication remains deferred under DEC-0011.
+- `FUTURE-CONSIDERATIONS.md` was not changed because no specific new implementation item was approved or formally deferred.
+
 ## Release 1.6 - Core Policy Baseline Normalization and Controlled Adoption
 
 ### Added

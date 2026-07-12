@@ -429,3 +429,62 @@ Historical approvals, release evidence, closeout records, tags, backups, and Git
 - docs/Foundation/Records-Evidence-and-Retention-Policy.md
 - docs/Foundation/External-Deliverable-Governance-Policy.md
 - DEC-0003
+
+## DEC-0013: Adopt One Cross-Policy Operating Procedure for Exceptions, Escalation, Noncompliance, and Corrective Action
+
+Date: 2026-07-12
+Status: Approved
+Decision Owner: Send Manna Too LLC
+Decision Type: Procedure / Operating Model
+Applies To: Exceptions, escalation, noncompliance, and corrective action under the seven approved core governance policies
+
+### Context
+
+The seven approved core policies establish authority, domain-specific escalation triggers, exception conditions, noncompliance responses, evidence requirements, and review obligations.
+
+A read-only inventory and eighteen-requirement no-loss mapping confirmed that the policies do not collectively provide one complete and consistent operating lifecycle for intake, materiality assessment, approval, corrective-action tracking, review, extension, expiration, closure verification, and recurrence analysis.
+
+Repeating the complete operating method in each policy would increase duplicate-guidance and inconsistency risk.
+
+### Decision
+
+Adopt the Cross-Policy Exception, Escalation, Noncompliance, and Corrective-Action Procedure as the controlled operating method for executing existing requirements across the seven approved core policies.
+
+The procedure is subordinate to the Constitution and applicable policies. It does not amend policy obligations, create approval authority, authorize an exception to law or non-exceptable obligations, or replace a more specific approved requirement.
+
+### Rationale
+
+One common procedure creates a proportionate, auditable, and repeatable operating lifecycle while preserving policy authority, domain-specific requirements, evidence expectations, and cross-policy precedence.
+
+The procedure reduces duplicate guidance and provides consistent minimum records for exceptions, escalation, corrective actions, review, closure, and recurrence analysis.
+
+### Impact
+
+Material exceptions remain subject to appropriate governance authority.
+
+The procedure provides the approved execution method for:
+
+- Intake and classification.
+- Assessment and materiality.
+- Exception decisions.
+- Escalation.
+- Corrective action.
+- Review, extension, expiration, closure, and reopening.
+- Records and evidence.
+- Recurrence and root-cause review.
+
+No production publication artifact, reusable register, form, checklist, automated workflow, ticketing requirement, training artifact, or substantive policy amendment is created by this decision.
+
+### Related Artifacts
+
+- docs/Releases/Release-1.7-Cross-Policy-Exception-Escalation-Noncompliance-and-Corrective-Action-Operationalization-Plan.md
+- docs/Releases/Release-1.7-Cross-Policy-Exception-Escalation-Noncompliance-and-Corrective-Action-Operationalization-Record.md
+- docs/Procedures/Cross-Policy-Exception-Escalation-Noncompliance-and-Corrective-Action-Procedure.md
+- docs/Foundation/Governance-and-Operating-Authority-Policy.md
+- docs/Foundation/Client-Engagement-Governance-Policy.md
+- docs/Foundation/Commercial-and-Contracting-Governance-Policy.md
+- docs/Foundation/Information-Handling-and-Confidentiality-Policy.md
+- docs/Foundation/Third-Party-and-Partner-Governance-Policy.md
+- docs/Foundation/Records-Evidence-and-Retention-Policy.md
+- docs/Foundation/External-Deliverable-Governance-Policy.md
+- DEC-0012
