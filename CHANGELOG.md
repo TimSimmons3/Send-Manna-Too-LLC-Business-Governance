@@ -1,5 +1,42 @@
 # Changelog
 
+## Release 1.6 - Core Policy Baseline Normalization and Controlled Adoption
+
+### Added
+
+- Added the Release 1.6 core policy baseline normalization and controlled adoption plan.
+- Added the Release 1.6 implementation record with the seven-policy inventory, baseline fingerprints, candidate evidence, promotion evidence, and validation results.
+- Added DEC-0012 to adopt a common administrative document-control baseline for controlled policies.
+
+### Completed
+
+- Normalized the document-control structure and twelve approved metadata fields across all seven core governance policies.
+- Updated all seven policy statuses to Approved and Active.
+- Separated policy version from original release identifiers.
+- Applied the original release closeout date of 2026-07-10 as the effective-date basis.
+- Standardized owner, role-based approving authority, exact canonical Markdown path, and publication-format treatment.
+- Preserved each policy's existing review obligation without imposing a new common annual requirement.
+- Removed completed release approval criteria and release notes after no-loss review.
+- Preserved every substantive policy body without change.
+
+### Validation
+
+- Confirmed the Release 1.6 plan was committed, pushed, and synchronized before policy implementation.
+- Captured and verified seven baseline full-file hashes and seven baseline substantive-body hashes.
+- Verified all seven candidate substantive-body hashes matched their baselines.
+- Verified all seven promoted-file hashes matched the approved candidate hashes.
+- Confirmed each normalized metadata control appeared exactly once in every policy.
+- Confirmed no draft status, Upon approval effective date, release approval-criteria section, or release-notes section remained.
+- Confirmed ASCII validation, trailing-whitespace validation, drafting-marker scanning, unexpected-change scanning, and `git diff --check` passed.
+- Confirmed no substantive policy obligation, scope boundary, authority, exception, noncompliance requirement, evidence requirement, or review obligation changed.
+
+### Notes
+
+- Release 1.6 is an administrative normalization release, not a substantive policy amendment.
+- Markdown in Git remains canonical.
+- No production Word, PDF, or PowerPoint policy artifact was created.
+- Production publication remains deferred under DEC-0011.
+
 ## Release 1.5 - Core Governance Policy Set Completion Review and Next-Phase Planning
 
 ### Added

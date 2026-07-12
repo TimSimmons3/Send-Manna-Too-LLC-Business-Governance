@@ -1,14 +1,21 @@
 # Third-Party and Partner Governance Policy
 
+## Document Control
+
 | Field | Value |
 | --- | --- |
+| Document | Third-Party and Partner Governance Policy |
 | Document Type | Policy |
-| Document Owner | Send Manna Too LLC |
+| Policy Area | Third-Party and Partner Governance |
+| Owner | Send Manna Too LLC |
+| Approving Authority | Send Manna Too LLC governance authority |
+| Status | Approved and Active |
 | Version | 1.0 |
-| Status | Draft |
 | Release | Release 1.2 |
-| Effective Date | Upon approval |
+| Effective Date | 2026-07-10 |
 | Review Cycle | At least annually or upon material business, legal, client, partner, vendor, subcontractor, or operating-model change |
+| Canonical Source | `docs/Foundation/Third-Party-and-Partner-Governance-Policy.md` |
+| Publication Formats | Word, PDF, and PowerPoint are publication formats only |
 
 ## 1. Purpose
 
@@ -259,9 +266,3 @@ Material noncompliance shall be documented and remediated through an approved co
 This policy shall be reviewed when partner practices, referral practices, subcontractor use, vendor reliance, external collaboration, service offerings, commercial practices, client obligations, legal obligations, governance expectations, or operating practices materially change.
 
 Approved changes shall follow the controlled governance release process.
-
-## 22. Release 1.2 Notes
-
-Release 1.2 establishes the first controlled Third-Party and Partner Governance Policy for Send Manna Too LLC.
-
-This policy remains governance-level and does not create vendor security technical control standards, cybersecurity assessment procedures, procurement procedures, onboarding checklists, referral agreement templates, subcontractor agreement templates, NDA clauses, legal advice, contract templates, records retention schedules, external deliverable review procedures, or publication workflow requirements.

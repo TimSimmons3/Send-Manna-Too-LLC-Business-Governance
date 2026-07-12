@@ -6,11 +6,16 @@
 | --- | --- |
 | Document | External Deliverable Governance Policy |
 | Document Type | Policy |
+| Policy Area | External Deliverable Governance |
+| Owner | Send Manna Too LLC |
+| Approving Authority | Send Manna Too LLC governance authority |
+| Status | Approved and Active |
+| Version | 1.0 |
+| Release | Release 1.4 |
+| Effective Date | 2026-07-10 |
+| Review Cycle | At least annually or upon material governance, business, legal, commercial, client, confidentiality, delivery, or publication change |
 | Canonical Source | `docs/Foundation/External-Deliverable-Governance-Policy.md` |
 | Publication Formats | Word, PDF, and PowerPoint are publication formats only |
-| Authority | Send Manna Too LLC Business Governance Framework |
-| Review Cycle | At least annually or upon material governance, business, legal, commercial, client, confidentiality, delivery, or publication change |
-| Approved By | Timothy Simmons / Send Manna Too LLC |
 
 ## 1. Purpose
 
@@ -378,11 +383,3 @@ This policy shall be reviewed when services, client obligations, delivery method
 Approved changes shall follow the controlled governance release process.
 
 Recurring exceptions, corrections, withdrawals, replacements, distribution errors, or reliance disputes may indicate that this policy or related standards, procedures, templates, checklists, training, or tooling should be updated.
-
-## 23. Release 1.4 Notes
-
-Release 1.4 establishes the first controlled External Deliverable Governance Policy for Send Manna Too LLC.
-
-This policy remains governance-level. It does not create publication artifacts, publication templates, export-tool instructions, detailed formatting rules, duplicate Document Quality Standard requirements, duplicate Publication and Export Procedure steps, duplicate client engagement procedures, contract clauses, legal advice, pricing procedures, retention schedules, technical cybersecurity controls, detailed evidence checklists, workflow automation, electronic signature tooling, document-management software requirements, changes to the frozen Release 0.1 governance architecture, or release automation tooling.
-
-Markdown in Git remains the canonical source. Word, PDF, PowerPoint, and other formatted outputs remain publication formats unless an approved exception states otherwise.

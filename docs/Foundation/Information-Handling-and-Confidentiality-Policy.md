@@ -4,14 +4,18 @@
 
 | Field | Value |
 | --- | --- |
+| Document | Information Handling and Confidentiality Policy |
 | Document Type | Policy |
 | Policy Area | Information Handling and Confidentiality |
 | Owner | Send Manna Too LLC |
-| Status | Draft |
-| Version | Release 1.1 |
-| Canonical Source | Markdown in Git |
-| Repository Path | docs/Foundation/Information-Handling-and-Confidentiality-Policy.md |
-| Review Cycle | At least annually or upon material business, legal, client, confidentiality, or operating-model change |
+| Approving Authority | Send Manna Too LLC governance authority |
+| Status | Approved and Active |
+| Version | 1.0 |
+| Release | Release 1.1 |
+| Effective Date | 2026-07-10 |
+| Review Cycle | Upon material change affecting information handling practices, client obligations, confidentiality obligations, legal obligations, commercial practices, governance expectations, service offerings, or operating practices |
+| Canonical Source | `docs/Foundation/Information-Handling-and-Confidentiality-Policy.md` |
+| Publication Formats | Word, PDF, and PowerPoint are publication formats only |
 
 ## 1. Purpose
 
@@ -211,18 +215,3 @@ Material noncompliance shall be documented and remediated through an approved co
 This policy shall be reviewed when information handling practices, client obligations, confidentiality obligations, legal obligations, commercial practices, governance expectations, service offerings, or operating practices materially change.
 
 Review shall confirm that the policy remains aligned with the Constitution, Document Hierarchy Standard, Document Quality Standard, Governance and Operating Authority Policy, Client Engagement Governance Policy, Commercial and Contracting Governance Policy, and approved future governance documents.
-
-## 20. Release 1.1 Approval Criteria
-
-This policy may be approved for Release 1.1 when:
-
-- The policy has one primary purpose.
-- The policy aligns with the Constitution and approved document hierarchy.
-- The policy does not duplicate existing standards, procedures, templates, or release records.
-- The policy remains governance-level and does not become a technical cybersecurity control standard.
-- The policy does not create legal clauses, contract templates, or legal advice.
-- Records retention, third-party governance, external deliverable governance, and publication procedure detail remain out of scope.
-- Confidentiality expectations are practical, risk-based, and not overbroad.
-- Markdown validation, ASCII validation, trailing whitespace validation, and `git diff --check` pass.
-- `CHANGELOG.md` is updated for Release 1.1.
-- Release 1.1 closeout records final approval.

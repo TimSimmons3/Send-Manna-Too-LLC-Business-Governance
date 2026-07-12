@@ -4,13 +4,18 @@
 
 | Field | Value |
 | --- | --- |
-| Organization | Send Manna Too LLC |
-| Framework | Business Governance Framework |
+| Document | Governance and Operating Authority Policy |
 | Document Type | Policy |
-| Status | Draft for Release 0.8 review |
-| Canonical Source | Markdown in Git |
+| Policy Area | Governance and Operating Authority |
+| Owner | Send Manna Too LLC |
+| Approving Authority | Send Manna Too LLC governance authority |
+| Status | Approved and Active |
+| Version | 1.0 |
+| Release | Release 0.8 |
+| Effective Date | 2026-07-10 |
+| Review Cycle | Upon material change affecting business operations, client obligations, legal obligations, document hierarchy, or operating practices |
+| Canonical Source | `docs/Foundation/Governance-and-Operating-Authority-Policy.md` |
 | Publication Formats | Word, PDF, and PowerPoint are publication formats only |
-| Owning Authority | Send Manna Too LLC leadership |
 
 ## 1. Purpose
 
@@ -169,16 +174,3 @@ Material noncompliance shall be documented and remediated through an approved co
 This policy shall be reviewed when governance authority determines that business operations, client obligations, legal obligations, document hierarchy, or operating practices materially change.
 
 Changes to this policy shall be made through controlled Markdown updates in Git and shall include validation appropriate to the change.
-
-## 17. Release 0.8 Approval Criteria
-
-This policy is ready for Release 0.8 approval when:
-
-- The policy has one primary purpose.
-- The policy aligns to the Constitution.
-- The policy does not duplicate existing standards, procedures, templates, or release records.
-- The policy preserves Markdown in Git as canonical.
-- ASCII validation passes.
-- Trailing whitespace validation passes.
-- Git diff validation passes.
-- Release 0.8 closeout records final approval.

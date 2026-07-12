@@ -2,12 +2,20 @@
 
 ## Document Control
 
-Document Type: Policy
-Policy Area: Commercial and Contracting Governance
-Status: Draft
-Primary Owner: Send Manna Too LLC
-Canonical Source: Markdown in Git
-Related Release: Release 1.0
+| Field | Value |
+| --- | --- |
+| Document | Commercial and Contracting Governance Policy |
+| Document Type | Policy |
+| Policy Area | Commercial and Contracting Governance |
+| Owner | Send Manna Too LLC |
+| Approving Authority | Send Manna Too LLC governance authority |
+| Status | Approved and Active |
+| Version | 1.0 |
+| Release | Release 1.0 |
+| Effective Date | 2026-07-10 |
+| Review Cycle | Upon material change affecting commercial practices, contracting practices, service offerings, pricing approaches, legal obligations, client obligations, governance expectations, or operating practices |
+| Canonical Source | `docs/Foundation/Commercial-and-Contracting-Governance-Policy.md` |
+| Publication Formats | Word, PDF, and PowerPoint are publication formats only |
 
 ## 1. Purpose
 
@@ -253,21 +261,3 @@ Material noncompliance shall be documented and remediated through an approved co
 This policy shall be reviewed when commercial practices, contracting practices, service offerings, pricing approaches, legal obligations, client obligations, governance expectations, or operating practices materially change.
 
 Updates shall follow the approved governance lifecycle and remain aligned with the Constitution, document hierarchy, and canonical Markdown source control requirements.
-
-## 18. Release 1.0 Approval Criteria
-
-This policy is approved for Release 1.0 when:
-
-- The policy is reviewed against the Constitution.
-- The policy is reviewed against the Governance and Operating Authority Policy.
-- The policy is reviewed against the Client Engagement Governance Policy.
-- The policy is reviewed against the Document Hierarchy Standard.
-- The policy is reviewed against the Document Quality Standard.
-- The policy is reviewed against the Release 0.7 planning record.
-- Duplicate guidance risk is reviewed.
-- Legal advice and legal clause drafting are excluded.
-- Confidentiality, records retention, third-party, external deliverable, and publication detail remain out of scope.
-- Markdown quality validation passes.
-- ASCII validation passes.
-- Trailing whitespace validation passes.
-- Git diff validation passes.

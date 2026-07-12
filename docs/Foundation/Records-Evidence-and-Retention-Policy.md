@@ -1,14 +1,21 @@
 # Records Evidence and Retention Policy
 
+## Document Control
+
 | Field | Value |
 | --- | --- |
+| Document | Records Evidence and Retention Policy |
 | Document Type | Policy |
-| Document Owner | Send Manna Too LLC |
+| Policy Area | Records Evidence and Retention |
+| Owner | Send Manna Too LLC |
+| Approving Authority | Send Manna Too LLC governance authority |
+| Status | Approved and Active |
 | Version | 1.0 |
-| Status | Draft |
 | Release | Release 1.3 |
-| Effective Date | Upon approval |
+| Effective Date | 2026-07-10 |
 | Review Cycle | At least annually or upon material business, legal, contractual, client, records, evidence, retention, confidentiality, or operating-model change |
+| Canonical Source | `docs/Foundation/Records-Evidence-and-Retention-Policy.md` |
+| Publication Formats | Word, PDF, and PowerPoint are publication formats only |
 
 ## 1. Purpose
 
@@ -329,11 +336,3 @@ This policy shall be reviewed when business operations, service offerings, clien
 The review shall consider whether additional retention schedules, standards, procedures, classifications, technical controls, or supporting tools are required through a separately approved release.
 
 Approved changes shall follow the controlled governance release process.
-
-## 26. Release 1.3 Notes
-
-Release 1.3 establishes the first controlled Records Evidence and Retention Policy for Send Manna Too LLC.
-
-This policy establishes governance-level requirements for record identification, ownership, authoritative status, evidence integrity, traceability, retention decisions, preservation, confidentiality, access, recoverability, review, authorized disposition, escalation, and exceptions.
-
-This policy does not create detailed retention schedules, fixed retention periods, legal advice, statutory retention conclusions, litigation or discovery procedures, technical storage architecture, backup schedules, disaster recovery procedures, folder structures, records-management software requirements, detailed destruction procedures, evidence collection checklists, external deliverable review procedures, publication workflow changes, or publication artifacts.

@@ -376,3 +376,56 @@ Production publication remains separate from publication-template completion and
 - DEC-0005
 - DEC-0007
 - DEC-0008
+
+## DEC-0012: Adopt a Common Administrative Document-Control Baseline for Controlled Policies
+
+Date: 2026-07-12
+Status: Approved
+Decision Owner: Send Manna Too LLC
+Decision Type: Standard / Operating Model
+Applies To: Controlled policy metadata and stable policy presentation
+
+### Context
+
+The seven approved core governance policies used inconsistent document-control structures, field names, status values, version and release treatment, effective-date values, ownership and approval terminology, canonical-source statements, review-cycle presentation, and release-development sections.
+
+The inconsistencies did not invalidate prior approvals, but they created ambiguity for policy reliance, controlled adoption, review, maintenance, publication, distribution, audit evidence, and future change control.
+
+### Decision
+
+Adopt one common administrative document-control baseline for controlled policies.
+
+The approved policy metadata fields are Document, Document Type, Policy Area, Owner, Approving Authority, Status, Version, Release, Effective Date, Review Cycle, Canonical Source, and Publication Formats.
+
+Use `Send Manna Too LLC governance authority` as the role-based approving-authority value, `Approved and Active` as the approved policy status, and separate `Version` from the original `Release`.
+
+Use the original approved release closeout date as the effective-date basis, identify the exact repository-relative Markdown path as the canonical source, and preserve Word, PDF, and PowerPoint as publication formats only.
+
+Review-cycle metadata must preserve each policy's existing review obligation. Release-development approval criteria and notes may be removed only after no-loss verification confirms that no unique continuing policy requirement is lost.
+
+Administrative normalization does not reopen, expand, narrow, or otherwise amend substantive policy requirements.
+
+### Rationale
+
+A common administrative baseline improves policy clarity, auditability, maintenance, controlled adoption, source traceability, and publication readiness without creating person-dependent approval metadata or silently changing policy obligations.
+
+### Impact
+
+The seven core policies use a consistent twelve-field document-control structure and stable operating presentation.
+
+Future controlled policy creation and administrative maintenance should use this baseline unless a separately approved decision establishes a different requirement.
+
+Historical approvals, release evidence, closeout records, tags, backups, and Git history remain authoritative evidence of the original policy approvals.
+
+### Related Artifacts
+
+- docs/Releases/Release-1.6-Core-Policy-Baseline-Normalization-and-Controlled-Adoption-Plan.md
+- docs/Releases/Release-1.6-Core-Policy-Baseline-Normalization-and-Controlled-Adoption-Record.md
+- docs/Foundation/Governance-and-Operating-Authority-Policy.md
+- docs/Foundation/Client-Engagement-Governance-Policy.md
+- docs/Foundation/Commercial-and-Contracting-Governance-Policy.md
+- docs/Foundation/Information-Handling-and-Confidentiality-Policy.md
+- docs/Foundation/Third-Party-and-Partner-Governance-Policy.md
+- docs/Foundation/Records-Evidence-and-Retention-Policy.md
+- docs/Foundation/External-Deliverable-Governance-Policy.md
+- DEC-0003
