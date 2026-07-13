@@ -679,3 +679,94 @@ No new Future Considerations entry is required by this decision.
 - docs/Checklists/Publication-Artifact-Validation-Checklist.md
 - docs/Procedures/Cross-Policy-Exception-Escalation-Noncompliance-and-Corrective-Action-Procedure.md
 - DEC-0015
+
+## DEC-0017: Determine Framework Conditionally Ready and Authorize One Future Narrow Operating-Use Pilot in Principle
+
+Date: 2026-07-13
+Status: Approved
+Decision Owner: Send Manna Too LLC
+Decision Type: Framework Readiness / Controlled Pilot Authorization
+Applies To: The Send Manna Too LLC Business Governance Framework and one future narrowly scoped actual operating-use pilot
+
+### Context
+
+The seven-policy core governance set is approved and active.
+
+The framework contains approved standards, publication controls, a release-closeout procedure, one cross-policy exception and corrective-action procedure, one client engagement lifecycle procedure, and one external deliverable lifecycle procedure.
+
+Fictional operating-use and repeatability validation has been completed across the cross-policy, client engagement, and external deliverable lifecycles.
+
+No confirmed policy defect, procedure defect, material authority ambiguity, material boundary ambiguity, or missing lifecycle method blocks one narrowly bounded pilot.
+
+The remaining material uncertainties concern actual workload, elapsed time, operator behavior, client and recipient behavior, evidence-system adequacy, execution friction, and real operating adoption.
+
+### Decision
+
+Determine the framework `Conditionally ready`.
+
+Authorize one future narrowly scoped actual operating-use pilot in principle, subject to all Release 2.2 eligibility criteria, prohibited characteristics, stop conditions, evidence requirements, and a separately approved pilot start gate.
+
+The pilot shall be owner-operated, low complexity, limited in duration, third-party-free, bounded to low-sensitivity authorized information, preservation-only for records, and limited to one clearly defined external deliverable.
+
+Do not authorize actual pilot execution, an actual client or engagement, broad rollout, delegated multi-operator use, production publication, records disposition, third-party participation, training artifacts, reusable execution aids, workflows, trackers, registers, ticketing requirements, or software implementation through this decision.
+
+Require actual operating evidence before broader rollout or any claim of demonstrated operating effectiveness.
+
+Retain production-publication deferral under DEC-0011.
+
+### Rationale
+
+The framework contains sufficient approved authority, policy, lifecycle, publication, evidence, exception, corrective-action, and closeout controls to govern one carefully bounded pilot.
+
+The conditional boundaries eliminate or contain the remaining gaps:
+
+- Commercial and contractual complexity is bounded or receives appropriate review.
+- Third-party delivery involvement is excluded.
+- Information sensitivity and disclosure are bounded.
+- Pilot records are preserved and no disposition occurs.
+- The owner executes the pilot.
+- Stop and escalation conditions are mandatory.
+
+Another fictional validation release would not materially resolve the principal remaining questions because those questions concern actual operating conditions.
+
+### Impact
+
+A future pilot may be separately proposed only after a qualifying engagement exists and the approved pilot start gate is satisfied.
+
+The pilot must collect actual evidence concerning:
+
+- Lifecycle execution.
+- Workload and elapsed time.
+- Missing information and rework.
+- Authority and escalation.
+- Commercial and confidentiality boundaries.
+- Deliverable review, release, delivery, and client response.
+- Records, traceability, preservation, and recoverability.
+- Execution friction.
+- Exceptions and corrective actions.
+- Outcomes and residual risk.
+- Any evidence-supported need for a clarification, training artifact, execution aid, or tool.
+
+Broad rollout remains unauthorized.
+
+Controlled rollout planning beyond high-level dependency identification remains deferred until pilot evidence exists.
+
+All seven approved policies, five approved procedures, two approved standards, the Publication Artifact Validation Checklist, the Constitution, publication templates, and artifact directories remain unchanged.
+
+No Future Considerations entry is required.
+
+### Related Artifacts
+
+- docs/Releases/Release-2.2-Framework-Operating-Use-Readiness-Review-and-Controlled-Pilot-Authorization-Plan.md
+- docs/Releases/Release-2.2-Framework-Operating-Use-Readiness-Review-and-Controlled-Pilot-Authorization-Record.md
+- docs/Releases/Release-1.8-Cross-Policy-Procedure-Operating-Use-and-Repeatability-Validation-Record.md
+- docs/Releases/Release-1.9-Client-Engagement-Lifecycle-Operationalization-Record.md
+- docs/Releases/Release-2.0-External-Deliverable-Lifecycle-Operationalization-Record.md
+- docs/Releases/Release-2.1-External-Deliverable-Lifecycle-Fictional-Repeatability-Validation-Record.md
+- docs/Procedures/Cross-Policy-Exception-Escalation-Noncompliance-and-Corrective-Action-Procedure.md
+- docs/Procedures/Client-Engagement-Lifecycle-Procedure.md
+- docs/Procedures/External-Deliverable-Lifecycle-Procedure.md
+- DEC-0011
+- DEC-0014
+- DEC-0015
+- DEC-0016
