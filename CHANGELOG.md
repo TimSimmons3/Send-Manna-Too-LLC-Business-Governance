@@ -1,5 +1,41 @@
 # Changelog
 
+## Release 2.3 - Future Considerations Register Status Normalization
+
+### Added
+
+- Added the Release 2.3 Future Considerations Register status normalization plan.
+- Added the Release 2.3 normalization record documenting the baseline inventory, approved replacements, file checksums, no-loss validation, final determination, and residual risk.
+
+### Completed
+
+- Normalized the FC-0002 controlling status from `Closed` to the approved status `Implemented`.
+- Normalized directly related FC-0002 wording to state that the Word publication template remediation was implemented or completed in Release 0.4.
+- Replaced the nested `Status:` label in the Release 0.4 remediation update with the non-controlling label `Implementation Outcome:`.
+- Preserved the FC-0002 identifier, title, date, category, priority, scope, context, consideration, rationale, artifact paths, validation conclusions, and DOCX SHA-256.
+- Preserved FC-0001 and the approved Future Considerations status definitions without change.
+- Determined that no Decision Register update, policy change, procedure change, publication artifact, execution aid, training artifact, pilot action, or broad-rollout action was required.
+
+### Validation
+
+- Confirmed the Release 2.3 plan was committed, pushed, and synchronized at `4afb05d` before implementation.
+- Confirmed the approved Release 2.3 plan SHA-256 `fd53ce5d71d1b6bcc89f58a1d8956959dba2b5d367ac5a8400bfd424544d94f6`.
+- Confirmed the baseline `FUTURE-CONSIDERATIONS.md` SHA-256 `f98772363c5f9768816f1fdde2ae52cdae1bba5d37e1b8d67fd1df2dccf22963`.
+- Confirmed exactly two Future Considerations entries existed before and after normalization.
+- Confirmed both controlling entry statuses are now `Implemented` and belong to the approved status set.
+- Confirmed no unsupported `Status: Closed` value or nested FC-0002 subsection line beginning with `Status:` remains.
+- Confirmed the controlled Word DOCX artifact path and SHA-256 remain unchanged.
+- Confirmed ASCII, final-newline, trailing-whitespace, exact-replacement, no-loss, and candidate-package validations passed.
+
+### Notes
+
+- Release 2.3 is an administrative register-normalization release and does not perform the underlying Word-template remediation.
+- Release 0.4 remains the release that completed and validated the Word-template remediation.
+- `DECISIONS-LOG.md` is unchanged because no new material governance decision was required.
+- DEC-0017 pilot boundaries remain unchanged, and actual pilot execution remains pending.
+- Production publication remains deferred under DEC-0011.
+- Markdown in Git remains canonical.
+
 ## Release 2.2 - Framework Operating-Use Readiness Review and Controlled Pilot Authorization
 
 ### Added
