@@ -100,7 +100,7 @@ Release 2.1 applies that governance pattern to lifecycle decision repeatability 
 
 The review shall use, at minimum:
 
-1. `docs/Constitution/Send-Manna-Too-LLC-Business-Governance-Constitution.md`
+1. `docs/Foundation/Send-Manna-Too-LLC-Constitution.md`
 2. `docs/Foundation/Governance-and-Operating-Authority-Policy.md`
 3. `docs/Foundation/Client-Engagement-Governance-Policy.md`
 4. `docs/Foundation/Commercial-and-Contracting-Governance-Policy.md`
