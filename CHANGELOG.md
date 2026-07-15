@@ -1,5 +1,53 @@
 # Changelog
 
+## Release 2.4 - Minimum Commercial Readiness for Narrow Advisory Pilot
+
+### Added
+
+- Added the Release 2.4 minimum commercial readiness plan.
+- Added the Narrow Advisory Pilot Service Standard for the Cybersecurity Governance Baseline and 90-Day Executive Action Roadmap.
+- Added the Pricing and Commercial Approval Standard.
+- Added the Commercial and Contract Review Checklist.
+- Added controlled internal proposal, statement-of-work, and commercial change-order templates.
+- Added MSA and confidentiality-agreement business-requirements and review matrices.
+- Added the Release 2.4 implementation and validation record.
+- Added DEC-0018 to approve the commercial-readiness package and operating boundaries.
+
+### Completed
+
+- Established one bounded owner-operated advisory service for future client-specific DEC-0017 consideration.
+- Defined scope, deliverable, method, duration assumptions, responsibilities, information boundaries, third-party exclusions, reliance limits, acceptance, change control, stop conditions, and evidence requirements.
+- Established pricing, approval, confidentiality, discount, payment, change-pricing, and evidence requirements without publishing actual rates.
+- Established a confidential-rate-card control boundary requiring an approved non-public source before actual values are created.
+- Established a comprehensive commercial and contract review method.
+- Established reusable internal proposal, SOW, and change-order structures requiring client-specific approval and qualified review.
+- Established business-requirements matrices for MSA and confidentiality review without creating legal agreements or legal advice.
+- Determined that a standalone SLA is not required for the fixed-scope, time-bounded service.
+- Preserved client-specific authorization, signature, disclosure, external-release, and DEC-0017 pilot start gates.
+- Determined that no Future Considerations update is required.
+
+### Validation
+
+- Confirmed the Release 2.4 plan was committed, pushed, and synchronized at `9306504` before implementation.
+- Confirmed the approved Release 2.4 plan SHA-256 `9b0d9ac4eda42ec6d902571d4c97b666e266b21b624d7ea6bf6344d854ad00ba`.
+- Completed a no-loss mapping across authority, client engagement, commercial, confidentiality, third-party, records, external deliverable, hierarchy, quality, and lifecycle controls.
+- Confirmed all eight controlled commercial artifacts have one primary purpose and approved placement.
+- Confirmed actual rates, margins, negotiation positions, client identities, signatures, privileged information, and client-specific terms are prohibited from the public repository.
+- Confirmed templates do not create authority and require client-specific review.
+- Confirmed the MSA and confidentiality matrices are business-review aids and not legal documents.
+- Confirmed DEC-0011 and DEC-0017 remain unchanged.
+- Confirmed broad rollout, third-party delivery, records disposition, actual pilot execution, and production publication remain unauthorized.
+- Confirmed ASCII, final-newline, trailing-whitespace, controlled-path, candidate-hash, duplicate-guidance, authority, confidentiality, legal-boundary, misuse-risk, executive, red-team, and editorial validations passed.
+
+### Notes
+
+- Release 2.4 creates commercial-readiness controls, not an actual client engagement or pilot.
+- Actual rates and client-specific commercial records require approved non-public storage.
+- Future client-specific proposals, SOWs, MSAs, NDAs, pricing records, and change orders remain subject to applicable review and authority.
+- A recurring managed, monitoring, incident-response, support, uptime, or service-credit offering would require separate scope and may require an SLA.
+- Production publication remains deferred under DEC-0011.
+- Markdown in Git remains canonical.
+
 ## Release 2.3 - Future Considerations Register Status Normalization
 
 ### Added

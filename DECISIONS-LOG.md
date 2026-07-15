@@ -770,3 +770,97 @@ No Future Considerations entry is required.
 - DEC-0014
 - DEC-0015
 - DEC-0016
+
+## DEC-0018: Approve Minimum Commercial Readiness Package for Narrow Advisory Pilot
+
+Date: 2026-07-15
+Status: Approved
+Decision Owner: Send Manna Too LLC
+Decision Type: Commercial Readiness / Controlled Execution Aids
+Applies To: The Cybersecurity Governance Baseline and 90-Day Executive Action Roadmap service and related controlled internal commercial aids
+
+### Context
+
+Release 1.5 identified commercial and contract review execution aids as a confirmed operationalization need.
+
+Release 2.2 determined the framework conditionally ready for one future narrow operating-use pilot in principle. It also determined that the absence of a dedicated commercial-review aid was nonblocking only when commercial complexity remained standard and low, material terms were clear, and qualified review was completed or the issue was excluded.
+
+Release 2.4 created a bounded commercial-readiness package for one owner-operated advisory service without selecting a client, approving actual pricing, creating a final legal agreement, or starting the pilot.
+
+### Decision
+
+Approve:
+
+1. Narrow Advisory Pilot Service Standard.
+2. Pricing and Commercial Approval Standard.
+3. Commercial and Contract Review Checklist.
+4. Narrow Advisory Pilot Proposal Template.
+5. Narrow Advisory Pilot Statement of Work Template.
+6. Commercial Change Order Template.
+7. Master Services Agreement Business Requirements and Review Matrix.
+8. Confidentiality Agreement Business Requirements and Review Matrix.
+
+Approve the service boundary for:
+
+`Cybersecurity Governance Baseline and 90-Day Executive Action Roadmap`
+
+Approve fixed fee as the preferred pricing basis when scope and assumptions are sufficiently clear.
+
+Approve the confidential-rate-card control method, but prohibit actual rates, margins, floors, ceilings, discount thresholds, negotiation positions, and client-specific pricing from the public Business Governance Framework repository.
+
+Determine that a standalone service-level agreement is not required for the approved fixed-scope, time-bounded advisory service. The client-specific SOW shall define schedule, milestones, communications, review periods, dependency treatment, acceptance, escalation, suspension, and termination. A future recurring or operational service may require a separately approved SLA.
+
+Treat the proposal, SOW, change-order, MSA-review, and confidentiality-review artifacts as controlled internal aids only. They do not create engagement, pricing, signature, disclosure, external-release, legal, insurance, tax, regulatory, or professional authority.
+
+Require client-specific business, commercial, confidentiality, authority, signature, and qualified review before external use or execution.
+
+Do not authorize an actual client, engagement, price, contract signature, disclosure, third-party participation, external deliverable, pilot start, broad rollout, records disposition, or production publication through this decision.
+
+Preserve the separate DEC-0017 eligibility and pilot start gate.
+
+Retain production-publication deferral under DEC-0011.
+
+### Rationale
+
+A minimum commercial-readiness package reduces informal scope, unsupported pricing, uncontrolled commitments, incomplete contract review, unclear acceptance, and unmanaged change risk.
+
+The package remains proportionate because it is limited to one low-complexity service, excludes third-party delivery and sensitive information, separates business requirements from legal drafting, and prevents confidential pricing from entering the public repository.
+
+A standalone SLA would create unnecessary operational obligations for a service that does not provide uptime, continuous monitoring, incident response, ongoing support, or service credits.
+
+### Impact
+
+Send Manna Too LLC may use the approved artifacts to prepare and review a future client-specific commercial package.
+
+An actual matter must still:
+
+1. Pass qualification.
+2. Receive engagement authorization.
+3. Receive pricing approval.
+4. Complete contract and SOW review.
+5. Complete required qualified review.
+6. Confirm information and third-party boundaries.
+7. Confirm signature authority.
+8. Complete the external-release process for client-facing documents.
+9. Receive separate DEC-0017 pilot start approval when intended as the pilot.
+
+Actual rates and client-specific commercial records require an approved non-public authoritative source with access, version, backup, and recovery controls.
+
+No Future Considerations entry is required because the package is implemented in Release 2.4 and remaining client-specific work is engagement-triggered execution.
+
+Broad rollout remains unauthorized.
+
+### Related Artifacts
+
+- docs/Releases/Release-2.4-Minimum-Commercial-Readiness-for-Narrow-Advisory-Pilot-Plan.md
+- docs/Releases/Release-2.4-Minimum-Commercial-Readiness-for-Narrow-Advisory-Pilot-Record.md
+- docs/Standards/Narrow-Advisory-Pilot-Service-Standard.md
+- docs/Standards/Pricing-and-Commercial-Approval-Standard.md
+- docs/Checklists/Commercial-and-Contract-Review-Checklist.md
+- docs/Templates/Narrow-Advisory-Pilot-Proposal-Template.md
+- docs/Templates/Narrow-Advisory-Pilot-Statement-of-Work-Template.md
+- docs/Templates/Commercial-Change-Order-Template.md
+- docs/Checklists/Master-Services-Agreement-Business-Requirements-and-Review-Matrix.md
+- docs/Checklists/Confidentiality-Agreement-Business-Requirements-and-Review-Matrix.md
+- DEC-0011
+- DEC-0017
