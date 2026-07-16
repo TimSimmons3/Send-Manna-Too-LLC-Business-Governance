@@ -9,8 +9,8 @@
 | Document Type | Release Plan |
 | Release | Release 2.6 |
 | Release Name | Private Commercial Operations Foundation |
-| Status | Candidate for controlled plan-gate promotion |
-| Version | 1.0 |
+| Status | Approved for controlled implementation |
+| Version | 1.1 |
 | Owner | Send Manna Too LLC |
 | Approving Authority | Send Manna Too LLC governance authority |
 | Direct Predecessor | Release 2.5 - Outstanding Work Rebaseline and Controlled Roadmap |
@@ -70,14 +70,14 @@ Live pricing, invoicing, financial treatment, owner allocation, reserve treatmen
 
 | Gate | Requirement | Read-Only Result | Release Effect |
 | --- | --- | --- | --- |
-| G0 - Repository baseline | Release 2.5 closeout commit is the expected remote baseline | Pass based on remote repository and handoff evidence; local state requires terminal reconfirmation | Blocks plan promotion if local references, divergence, working tree, or tag do not match |
-| G1 - Release 2.5 closeout | Release 2.5 is closed, synchronized, backed up, recovery-tested, and handed off | Pass based on approved handoff evidence | Authorizes Release 2.6 planning only |
-| G2 - Public-private boundary | Release 2.5 boundary is adopted without weakening | Pass | Controls every public and private Release 2.6 artifact |
-| G3 - Sequencing and overlap | One active numbered release and one principal domain | Pass | Prohibits Release 2.7 or later implementation |
-| G4 - Private-record security and recovery | Approved authoritative private source, restricted access, encryption, backup, and recovery | Open condition; not independently evidenced by this read-only review | Blocks confidential population, reliance, live use, and Release 2.6 closeout |
-| G5 - Financial administration and qualified input | Bookkeeping, invoicing, collections, reserve, owner-allocation, tax, accounting, and related review inputs | Open condition; may proceed as a non-release prerequisite track | Blocks unsupported financial conclusions and live external use |
-| G6 - Release 2.6 plan | Separately approved, committed, synchronized, and clean plan baseline | Candidate created by this plan | Blocks substantive implementation until promoted |
-| G7 - Confidentiality scan | No protected value, party, private path, credential, or privileged content in public Git | Required before each commit | Blocks staging, commit, synchronization, and closeout on failure |
+| Repository baseline | Release 2.5 closeout commit is the expected remote baseline | Pass based on remote repository and handoff evidence; local state requires terminal reconfirmation | Blocks plan promotion if local references, divergence, working tree, or tag do not match |
+| Release 2.5 closeout | Release 2.5 is closed, synchronized, backed up, recovery-tested, and handed off | Pass based on approved handoff evidence | Authorizes Release 2.6 planning only |
+| Public-private boundary | Release 2.5 boundary is adopted without weakening | Pass | Controls every public and private Release 2.6 artifact |
+| Sequencing and overlap | One active numbered release and one principal domain | Pass | Prohibits Release 2.7 or later implementation |
+| G2 - Private-Record Security and Recovery Gate | Approved authoritative private source, restricted access, encryption, backup, and recovery | Open condition; not independently evidenced by this read-only review | Blocks confidential population, reliance, live use, and Release 2.6 closeout |
+| G3 - Financial Administration and Qualified Tax Gate | Bookkeeping, invoicing, collections, reserve, owner-allocation, tax, accounting, and related review inputs | Open condition; may proceed as a non-release prerequisite track | Blocks unsupported financial conclusions and live external use |
+| Release 2.6 plan promotion | Separately approved, committed, synchronized, and clean plan baseline | Candidate created by this plan | Blocks substantive implementation until promoted |
+| Confidentiality scan | No protected value, party, private path, credential, or privileged content in public Git | Required before each commit | Blocks staging, commit, synchronization, and closeout on failure |
 
 ### 2.3 Read-Only Review Limitations
 
@@ -179,6 +179,22 @@ Release 2.6 is supported by:
 7. Release 2.5, which prohibits Release 2.7 overlap and external execution.
 8. The current no-disposition boundary for records until a detailed retention and disposition authority is approved.
 
+### 6.1 Source-Record Anomaly Treatment
+
+The Release 2.5 carryforward register contains one non-controlling summary statement that refers to private pricing, cost, margin, scenario, record, and approval infrastructure as `OW-0021 through OW-0028`.
+
+The authoritative Release 2.5 master index, item-level entries, public-private boundary mapping, dependency map, controlled roadmap, Release 2.6 plan scope, and approved release sequence consistently assign `OW-0022` through `OW-0029` to Release 2.6.
+
+Release 2.6 shall therefore:
+
+1. Use `OW-0022` through `OW-0029` as the controlling eight-item scope.
+2. Treat the `OW-0021 through OW-0028` summary statement as a closed-source record anomaly.
+3. Preserve Release 2.5 history without rewriting the closed artifact.
+4. Record the anomaly and controlling interpretation in the Release 2.6 implementation and validation record.
+5. Prevent `OW-0021` insurance work from being absorbed into Release 2.6.
+6. Prevent `OW-0029` commercial record preservation work from being omitted.
+7. Escalate any later conflicting interpretation before implementation continues.
+
 Release 2.6 shall produce a no-loss mapping demonstrating that the Release 2.4 Pricing and Commercial Approval Standard is not weakened.
 
 The no-loss review shall preserve, at minimum:
@@ -215,11 +231,11 @@ Release 2.6 will:
 8. Create one Commercial Scenario and KPI Control Matrix.
 9. Define the required private authoritative artifact set without exposing private values or sensitive locations.
 10. Validate the private authoritative source, access, encryption, backup, and recovery before private population.
-11. Create and approve the private internal rate card after G4 and applicable G5 conditions pass.
-12. Create and approve the private cost, effort, margin, contingency, and price-boundary model after G4 and applicable G5 conditions pass.
-13. Create and approve private pricing-exception and strategic-investment records after G4 and applicable G5 conditions pass.
-14. Create and approve the private invoicing, payment, expense, travel, remobilization, collection, and bad-debt model after G4 and applicable G5 conditions pass.
-15. Create and approve private scenarios and KPI calculations after G4 and applicable G5 conditions pass.
+11. Create and approve the private internal rate card after G2 and applicable G3 conditions pass.
+12. Create and approve the private cost, effort, margin, contingency, and price-boundary model after G2 and applicable G3 conditions pass.
+13. Create and approve private pricing-exception and strategic-investment records after G2 and applicable G3 conditions pass.
+14. Create and approve the private invoicing, payment, expense, travel, remobilization, collection, and bad-debt model after G2 and applicable G3 conditions pass.
+15. Create and approve private scenarios and KPI calculations after G2 and applicable G3 conditions pass.
 16. Establish stable non-confidential private evidence identifiers.
 17. Define model inputs, sources, status, dates, review cycles, owners, and qualified-review status.
 18. Define formula, reconciliation, scenario, and tolerance validation.
@@ -759,7 +775,7 @@ Before any confidential commercial value is populated or relied upon, `PRV-COM-2
 19. Closure and supersession method.
 20. Residual-risk decision.
 
-A failed G4 gate requires one of these responses:
+A failed G2 gate requires one of these responses:
 
 1. Remediate the private source and retest.
 2. Use another approved private source and retest.
@@ -965,7 +981,7 @@ No private values are required in public artifacts.
 5. Confirm access.
 6. Confirm version and approval controls.
 7. Confirm incident and preservation controls.
-8. Record G4 result.
+8. Record G2 result.
 
 Confidential population remains blocked until Phase 2 passes.
 
@@ -1280,7 +1296,7 @@ A stop condition requires remediation, approved fallback, deferral, or rejection
 | Late charges and collection steps are ordinary business terms | Their enforceability and treatment can be jurisdiction, contract, and fact specific | Require counsel and accounting review when applicable | Counterparties may reject preferred terms |
 | A backup copy proves recoverability | Backup existence does not prove access, integrity, completeness, or restoration | Require representative recovery and evidence | Unseen failure modes remain |
 | Public formulas are harmless | Formula structure can reveal price strategy when combined with private thresholds or sources | Publish only the minimum control logic; keep populated and sensitive model logic private | Inference risk cannot be eliminated |
-| Closing the release with templates only is sufficient | The roadmap requires a private operating foundation, not merely schemas | Require populated and validated private artifacts after G4 and applicable G5 gates | Qualified inputs may delay closeout |
+| Closing the release with templates only is sufficient | The roadmap requires a private operating foundation, not merely schemas | Require populated and validated private artifacts after G2 and applicable G3 gates | Qualified inputs may delay closeout |
 | Release 2.6 should also cover vendor commissions | Vendor-channel compensation belongs to Release 2.7 and Release 2.9 | Defer vendor compensation and attribution work | Later integration may require model changes |
 | The model proves the business is profitable | A controlled model supports decisions but does not prove demand, collection, workload, actual cost, or realized margin | Preserve limitations and require later evidence-based recalibration | Decisions may still rely on uncertain assumptions |
 
@@ -1442,9 +1458,9 @@ This plan may be promoted only when:
 5. Public and private artifacts are separately defined.
 6. The existing pricing standard is updated in place unless a fallback is separately approved.
 7. The Release 2.5 public-private boundary is preserved.
-8. G4 and G5 conditional gates are explicit.
-9. Confidential population is blocked until G4 passes.
-10. Qualified conclusions and live external use are blocked until applicable G5 requirements pass.
+8. G2 and G3 conditional gates are explicit.
+9. Confidential population is blocked until G2 passes.
+10. Qualified conclusions and live external use are blocked until applicable G3 requirements pass.
 11. Exact authorized public paths are defined.
 12. Private evidence identifiers are stable and non-confidential.
 13. Release 2.7 overlap is prohibited.
@@ -1493,6 +1509,6 @@ After this plan is approved, committed, pushed, fetched, synchronized, and confi
 
 1. Create the candidate `docs/Standards/Private-Commercial-Operations-and-Confidential-Records-Standard.md`.
 2. Create a no-loss mapping for the existing Pricing and Commercial Approval Standard before modifying it.
-3. Keep all private commercial values unpopulated until G4 passes.
-4. Keep all qualified conclusions and live-use decisions restricted until applicable G5 requirements pass.
+3. Keep all private commercial values unpopulated until G2 passes.
+4. Keep all qualified conclusions and live-use decisions restricted until applicable G3 requirements pass.
 5. Do not create or implement any Release 2.7 artifact.
