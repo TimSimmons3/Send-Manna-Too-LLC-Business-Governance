@@ -141,3 +141,84 @@ DOCX SHA-256:
 f2a4f3e98a60bd7acd0e372f6efec1d337845e365a5f7e5e8d27c6312005c5a5
 
 FC-0002 was implemented in Release 0.4. Release tag and backup controls remain part of the final release packaging process.
+
+## FC-0003: Replace Interim USB Backup and Reassess Cloud Encryption
+
+Date Added: 2026-07-16
+Status: Deferred
+Category: Private Commercial Operations / Backup / Recovery / Security
+Priority: High
+Applies To: Release 2.6 G2 private authoritative source, independent backup, recovery, and future cloud-storage use
+Risk Reference: RSK-2.6-001
+
+### Context
+
+Release 2.6 temporarily uses a FileVault-protected local-only private authoritative source and an encrypted 64 GB SanDisk USB flash drive as the independent backup destination.
+
+The USB was formatted as APFS (Encrypted), a representative non-sensitive artifact was backed up and restored, the source, backup, and restored SHA-256 values matched, byte comparison passed, and APFS volume verification completed successfully.
+
+Advanced Data Protection for iCloud is currently off. Therefore, iCloud Drive is not approved as the authoritative private commercial source under the interim design. Google Drive and OneDrive synchronization are also not approved as independent backup methods without separately controlled client-side encryption, versioning, and recovery validation.
+
+### Consideration
+
+Replace or supplement the interim USB flash backup with a more durable independent recovery solution, preferably:
+
+1. An encrypted external SSD or external hard drive; or
+2. A client-side encrypted, versioned cloud-backup destination separate from the authoritative source.
+
+Before any future use of iCloud Drive as the authoritative private commercial source:
+
+1. Configure an approved Apple Account recovery method.
+2. Enable and validate Advanced Data Protection.
+3. Confirm the private folder is not shared.
+4. Repeat G2 access, encryption, backup, and representative recovery validation.
+5. Update the private repository control and backup-recovery evidence.
+
+### Rationale
+
+The interim USB flash drive provides encrypted independent recovery, but it has lower durability, automation, capacity, failure visibility, and physical resilience than a dedicated external SSD, external hard drive, managed network backup, or client-side encrypted cloud-backup service.
+
+The current design also lacks offsite or geographic separation. Theft, fire, flood, physical damage, loss, media failure, missed manual backups, or capacity exhaustion could affect recoverability.
+
+Advanced Data Protection is not required while the authoritative source remains local-only and protected by FileVault. It becomes a gating requirement if iCloud Drive is later proposed as the authoritative private source.
+
+### Current Disposition
+
+Deferred and temporarily accepted with compensating controls.
+
+The interim design may support a G2 Passed with Conditions decision only after the local-only authoritative source, access restrictions, encryption, backup procedure, representative recovery, and private evidence records are fully validated.
+
+Required compensating controls:
+
+1. Keep the authoritative source outside iCloud Drive, Google Drive, OneDrive, and public Git.
+2. Keep FileVault enabled.
+3. Keep the USB encrypted.
+4. Connect the USB only for controlled backup or recovery activity.
+5. Store the USB securely and separately from the Mac when practical.
+6. Perform a backup after each material private-record change.
+7. Perform periodic checksum and representative recovery testing.
+8. Monitor available capacity and media errors.
+9. Preserve private backup and recovery evidence under `PRV-COM-2.6-001` and `PRV-COM-2.6-009`.
+10. Reopen G2 immediately after an encryption, backup, restore, checksum, access-control, or media-integrity failure.
+
+Required reassessment triggers:
+
+1. Before recurring live commercial operations begin.
+2. Before the private commercial source exceeds 10 GB.
+3. After any USB error, failed backup, failed restore, or checksum difference.
+4. When a suitable durable backup device or controlled encrypted cloud-backup option becomes available.
+5. During Release 2.6 closeout and each later applicable release or annual review.
+6. Before iCloud Drive is used as an authoritative private commercial source.
+
+### Related Artifacts
+
+- `docs/Releases/Release-2.6-Private-Commercial-Operations-Foundation-Plan.md`
+- `docs/Standards/Private-Commercial-Operations-and-Confidential-Records-Standard.md`
+- `docs/Standards/Pricing-and-Commercial-Approval-Standard.md`
+- `docs/Checklists/Private-Commercial-Artifact-Inventory-and-Control-Matrix.md`
+- `docs/Checklists/Commercial-Model-Validation-and-Reconciliation-Checklist.md`
+- `docs/Checklists/Commercial-Scenario-and-KPI-Control-Matrix.md`
+- `docs/Releases/Release-2.6-Private-Commercial-Operations-Foundation-Record.md`
+- `docs/Releases/Release-2.6-Private-Commercial-Operations-Foundation-Closeout.md`
+- `PRV-COM-2.6-001`
+- `PRV-COM-2.6-009`
