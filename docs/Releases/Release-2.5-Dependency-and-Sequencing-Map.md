@@ -9,7 +9,7 @@
 | Document Type | Dependency and Sequencing Map |
 | Release | Release 2.5 |
 | Release Name | Outstanding Work Rebaseline and Controlled Roadmap |
-| Status | Candidate for controlled owner review |
+| Status | Approved |
 | Version | 1.0 |
 | Owner | Send Manna Too LLC |
 | Approving Authority | Send Manna Too LLC governance authority |

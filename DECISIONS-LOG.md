@@ -864,3 +864,133 @@ Broad rollout remains unauthorized.
 - docs/Checklists/Confidentiality-Agreement-Business-Requirements-and-Review-Matrix.md
 - DEC-0011
 - DEC-0017
+
+## DEC-0019: Approve Outstanding Work Rebaseline and Controlled Release Roadmap
+
+Date: 2026-07-16
+Status: Approved
+Decision Owner: Send Manna Too LLC
+Decision Type: Roadmap Rebaseline / Controlled Sequencing / Information Boundary
+Applies To: Outstanding framework work, non-release prerequisites, planned Releases 2.6 through 2.10, conditional Releases 3.0 and 3.1, evidence-triggered Releases 3.2 and 3.3, and the related public-private artifact boundary
+
+### Context
+
+Release 2.4 completed the minimum commercial-readiness package for one narrow advisory service and preserved a future client-specific DEC-0017 start gate.
+
+Release 2.4 also stated that the next activity was engagement-triggered and that no repository change was required merely to wait for a qualifying engagement.
+
+After Release 2.4 closeout, the owner identified additional material work involving private commercial operations, corporate records, private-record security, financial administration, insurance, vendor-channel governance, client and vendor legal baselines, integrated mock validation, separate vendor and client pilots, evidence-based remediation, service expansion, and deferred strategic work.
+
+Release 2.5 inventoried and reconciled these matters against prior policies, procedures, standards, decisions, Future Considerations entries, release records, and post-closeout owner direction.
+
+### Decision
+
+Approve the Release 2.5 outstanding-work rebaseline containing 81 stable work items.
+
+Approve the controlled disposition model and the following final disposition counts:
+
+1. Eight completed items.
+2. Thirteen non-release prerequisites.
+3. Thirty-five items assigned to named releases.
+4. Two engagement-triggered items.
+5. Two vendor-triggered items.
+6. Six evidence-triggered items.
+7. Eleven deferred items.
+8. Four rejected alternatives.
+
+Approve one active numbered release at a time and one principal control domain per release.
+
+Approve the proposed sequential roadmap:
+
+1. Release 2.6 - Private Commercial Operations Foundation.
+2. Release 2.7 - Vendor Referral, Demo, and Sales-Closure Governance.
+3. Release 2.8 - Counsel-Ready Client Contract Baseline.
+4. Release 2.9 - Counsel-Ready Vendor Channel Agreement Baseline.
+5. Release 2.10 - Integrated Commercial and Vendor Pilot Readiness.
+
+Approve Release 3.0 and Release 3.1 as conditional sibling branches after Release 2.10:
+
+1. Release 3.0 - First Controlled Vendor Channel Pilot.
+2. Release 3.1 - First DEC-0017 Client Engagement Pilot.
+
+Require a documented owner sequencing decision before opening either conditional branch.
+
+Prohibit Release 3.0 and Release 3.1 from operating concurrently.
+
+Approve the evidence-triggered sequence:
+
+1. Release 3.2 - Evidence-Based Commercial and Operating Remediation.
+2. Release 3.3 - Controlled Service-Ladder Expansion.
+
+Approve the public-private artifact boundary and its ten artifact classes.
+
+Approve the non-release prerequisite tracks for:
+
+1. Repository integrity.
+2. Corporate records and signing authority.
+3. Private-record security, backup, and recovery.
+4. Financial administration and qualified tax input.
+5. Insurance and contract-to-coverage analysis.
+
+Supersede only the prior Release 2.4 next-activity sequencing statement.
+
+Do not reopen Release 2.4 or alter its completion evidence.
+
+Preserve DEC-0018 and the approved Release 2.4 commercial-readiness package.
+
+Preserve the separate DEC-0017 client-specific eligibility and pilot start gate.
+
+Preserve the DEC-0011 production-publication deferral.
+
+Require every future release to receive its own approved plan, implementation, validation, decision treatment, closeout, synchronization, backup, recovery validation, and handoff.
+
+Determine that counsel-ready does not mean counsel-reviewed, legally approved, final, enforceable, or executable.
+
+Determine that design readiness and mock validation do not establish operating effectiveness, compliance, profitability, market acceptance, or scalability.
+
+Do not authorize actual pricing, private financial values, contract execution, vendor onboarding, referral or commission activity, external demonstration, client work, pilot execution, service expansion, third-party delivery, managed services, broad rollout, records disposition, or complete-framework production publication through this decision.
+
+### Rationale
+
+A controlled rebaseline is necessary because the post-Release 2.4 work is broader than engagement-triggered client execution and includes material prerequisites and governance domains that should be resolved before external exposure.
+
+A single Big Bang implementation would combine confidential commercial modeling, corporate records, insurance, vendor-channel governance, legal drafting, mock validation, real pilots, remediation, and service expansion without adequate separation of authority, evidence, confidentiality, qualified review, or acceptance gates.
+
+The approved roadmap reduces that risk by:
+
+1. Assigning every known item one stable identifier and one disposition.
+2. Separating public governance from private authoritative evidence.
+3. Preserving non-release prerequisites without creating a second active release.
+4. Requiring one principal control domain per release.
+5. Separating vendor and client pilots.
+6. Requiring actual evidence before remediation and expansion.
+7. Preserving qualified legal, tax, insurance, regulatory, security, privacy, and professional review.
+8. Preventing unsupported claims of legal approval, compliance, operating effectiveness, or scalability.
+
+### Impact
+
+Release 2.5 becomes the authoritative roadmap and carryforward source for known post-Release 2.4 work.
+
+Future release identifiers and scopes are reserved for planning and traceability but do not create implementation authority.
+
+The Release 2.5 Outstanding Work and Carryforward Register is the primary work-disposition record.
+
+The Future Considerations Register remains unchanged because the Release 2.5 register and roadmap already control the identified work, and duplicating the same items would weaken source clarity.
+
+Non-release prerequisites may proceed privately in parallel only when they do not alter numbered-release scope, expose protected information, or create unsupported claims.
+
+A failed prerequisite, qualified-review gate, information boundary, contract gate, insurance gate, authority gate, evidence gate, or pilot start gate blocks the affected external activity.
+
+Broad rollout remains unauthorized.
+
+### Related Artifacts
+
+- docs/Releases/Release-2.5-Outstanding-Work-Rebaseline-and-Controlled-Roadmap-Plan.md
+- docs/Releases/Release-2.5-Outstanding-Work-and-Carryforward-Register.md
+- docs/Releases/Release-2.5-Dependency-and-Sequencing-Map.md
+- docs/Releases/Release-2.5-Public-and-Private-Artifact-Boundary.md
+- docs/Releases/Release-2.5-Controlled-Release-Roadmap.md
+- docs/Releases/Release-2.5-Outstanding-Work-Rebaseline-and-Controlled-Roadmap-Record.md
+- DEC-0011
+- DEC-0017
+- DEC-0018

@@ -1,5 +1,59 @@
 # Changelog
 
+## Release 2.5 - Outstanding Work Rebaseline and Controlled Roadmap
+
+### Added
+
+- Added the Release 2.5 outstanding-work rebaseline plan.
+- Added the 81-item Outstanding Work and Carryforward Register.
+- Added the Dependency and Sequencing Map.
+- Added the Public and Private Artifact Boundary.
+- Added the Controlled Release Roadmap for Releases 2.6 through 3.3.
+- Added the Release 2.5 implementation and validation record.
+- Added DEC-0019 to approve the rebaseline, disposition model, public-private boundary, non-release prerequisite tracks, and controlled roadmap.
+
+### Completed
+
+- Reconciled known completed, prerequisite, planned, engagement-triggered, vendor-triggered, evidence-triggered, deferred, and rejected work.
+- Assigned stable identifiers `OW-0001` through `OW-0081`.
+- Assigned exactly one disposition to every item.
+- Preserved 22 Public, 16 Private, and 43 Mixed register classifications.
+- Established the planned sequential path from Release 2.6 through Release 2.10.
+- Established Release 3.0 and Release 3.1 as conditional sibling branches that cannot operate concurrently.
+- Established evidence-triggered remediation and service-expansion releases.
+- Established ten public and private artifact classes.
+- Established five parallel non-release prerequisite tracks.
+- Preserved DEC-0011, DEC-0017, DEC-0018, and Release 2.4 completion evidence.
+- Determined that `FUTURE-CONSIDERATIONS.md` requires no Release 2.5 update.
+- Rejected Big Bang implementation, incremental complete-framework publication, a standalone SLA for the current narrow service, and public confidential commercial models.
+
+### Validation
+
+- Confirmed the Release 2.5 plan was committed and synchronized at `f1e05eb`.
+- Confirmed the carryforward register was committed and synchronized at `4608096`.
+- Confirmed the dependency and sequencing map was committed and synchronized at `8006fc9`.
+- Confirmed the public-private artifact boundary was committed and synchronized at `7166b47`.
+- Confirmed the controlled release roadmap was committed and synchronized at `ffd835f`.
+- Confirmed all five core Release 2.5 artifacts were status-normalized from Candidate to Approved through exact replacements.
+- Confirmed the register contains exactly 81 unique sequential identifiers and no duplicate disposition.
+- Confirmed the dependency graph is acyclic and preserves one active numbered release at a time.
+- Confirmed every future release has one principal control domain and all required roadmap fields.
+- Confirmed all 81 items map to an approved public, private, or mixed boundary.
+- Confirmed actual rates, margins, commissions, live-party information, signatures, executed agreements, privileged communications, private financial models, and unnecessary personal information remain prohibited from public Git.
+- Confirmed point-counterpoint, objection, fallback, red-team, misuse-risk, privacy, authority, legal-boundary, evidence, executive, and editorial reviews passed.
+- Confirmed ASCII, final-newline, trailing-whitespace, drafting-marker, exact-path, checksum, and staged-diff validations passed.
+
+### Notes
+
+- Release 2.5 is a planning, inventory, disposition, sequencing, and boundary release.
+- Release 2.5 does not implement Release 2.6 or later work.
+- Counsel-ready does not mean counsel-reviewed, legally approved, final, or executable.
+- Mock validation does not establish operating effectiveness or scalability.
+- A qualifying vendor does not satisfy the DEC-0017 client gate, and a qualifying client does not satisfy vendor-channel gates.
+- Non-release prerequisites may proceed privately only within the approved boundary and do not create a second active release.
+- Broad rollout, third-party delivery, managed services, records disposition, and complete-framework production publication remain unauthorized.
+- Markdown in Git remains canonical.
+
 ## Release 2.4 - Minimum Commercial Readiness for Narrow Advisory Pilot
 
 ### Added
