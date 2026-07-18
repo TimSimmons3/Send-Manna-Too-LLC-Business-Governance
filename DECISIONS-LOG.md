@@ -994,3 +994,82 @@ Broad rollout remains unauthorized.
 - DEC-0011
 - DEC-0017
 - DEC-0018
+
+## DEC-0020: Authorize Controlled Cross-Release Readiness Pull-Forward Workstream
+
+Date: 2026-07-18
+Status: Approved
+Decision Owner: Send Manna Too LLC
+Decision Type: Change Control / Controlled Pull-Forward / Cross-Release Readiness
+Applies To: Active Release 2.6 and bounded pre-release preparation for Releases 2.7 through 3.3
+
+### Context
+
+Release 2.6 remains the only active numbered release. The remaining roadmap
+contains material requirements, architecture, reviewer, contract, vendor,
+validation, pilot, remediation, and service-expansion work.
+
+Completing reusable inputs and bounded preparation before professional review
+can reduce discovery effort, review cost, calendar delay, and later rework.
+Without explicit change control, such work could be mistaken for opening or
+implementing later releases.
+
+### Decision
+
+Approve `CC-2.6-001`, the Release 2.6 Cross-Release Readiness Pull-Forward
+Change Control.
+
+Authorize `CRW-0001` through `CRW-0007` only as pre-release preparation.
+
+Require every pull-forward artifact to be labeled:
+
+`Pre-release preparation - non-authoritative`
+
+Preserve one active numbered release: Release 2.6.
+
+Preserve the approved sequence from Release 2.6 through Release 2.10, the
+non-concurrent conditional Release 3.0 and Release 3.1 branches, and the
+evidence-triggered Release 3.2 and Release 3.3 sequence.
+
+Approve the Release 2.6 Cross-Release Readiness Risk Register containing
+`RSK-2.6-001` through `RSK-2.6-009`.
+
+Require all material pull-forward risks to be recorded, owned, controlled,
+monitored, escalated, and reconciled at Release 2.6 closeout.
+
+Do not authorize later-release implementation, later-release approval, external
+activity, reviewer transmission, live vendor or client work, contract execution,
+pricing, invoicing, collection, demonstration, commission, pilot execution,
+service expansion, or external reliance through this decision.
+
+### Controls
+
+1. One active numbered release and one principal active release domain.
+2. Non-authoritative status labeling.
+3. Stable CRW and RSK identifiers.
+4. Public-private boundary and confidentiality scan.
+5. Assumption, dependency, review, fallback, and residual-risk traceability.
+6. Qualified-review holds for professional conclusions.
+7. Release 2.6 critical-path priority and work-in-process limits.
+8. Independent validation before commit and synchronization.
+9. Separate plans, approvals, validation, decisions, closeouts, and handoffs for
+   every later numbered release.
+
+### Impact
+
+`DEC-0020` is consumed by this material change control.
+
+The expected Release 2.6 closeout decision becomes `DEC-0021`, subject to
+identifier reconfirmation immediately before implementation.
+
+The Release 2.6 plan remains authoritative except as expressly supplemented by
+`CC-2.6-001`.
+
+### Related Artifacts
+
+- docs/Releases/Release-2.6-Cross-Release-Readiness-Pull-Forward-Change-Control.md
+- docs/Releases/Release-2.6-Cross-Release-Readiness-Risk-Register.md
+- docs/Releases/Release-2.6-Cross-Release-Readiness-Change-Control-Validation-Record.md
+- docs/Releases/Release-2.5-Controlled-Release-Roadmap.md
+- docs/Releases/Release-2.5-Outstanding-Work-and-Carryforward-Register.md
+- docs/Releases/Release-2.6-Private-Commercial-Operations-Foundation-Plan.md

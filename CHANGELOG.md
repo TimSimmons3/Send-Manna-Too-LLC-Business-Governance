@@ -752,3 +752,28 @@ Status: Complete
 ### Notes
 
 - GitHub Desktop remains the temporary push workaround until command-line Git authentication is resolved.
+
+## Release 2.6 - Cross-Release Readiness Pull-Forward Change Control
+
+### Added
+
+- Added `CC-2.6-001` to authorize bounded, non-authoritative
+  cross-release readiness preparation during active Release 2.6.
+- Added the Release 2.6 Cross-Release Readiness Risk Register.
+- Added stable work-package identifiers `CRW-0001` through `CRW-0007`.
+- Added new risks `RSK-2.6-002` through `RSK-2.6-009` and consolidated
+  monitoring of existing `RSK-2.6-001`.
+- Added `DEC-0020` to the Decision Register.
+- Added the change-control validation record.
+
+### Controlled Effects
+
+- Preserved Release 2.6 as the only active numbered release.
+- Preserved the approved Release 2.6 through Release 3.3 roadmap and gates.
+- Authorized preparation only, not later-release implementation or approval.
+- Required every pull-forward artifact to be labeled
+  `Pre-release preparation - non-authoritative`.
+- Required all material pull-forward risks to be recorded and tracked.
+- Reserved `DEC-0021` as the expected Release 2.6 closeout decision only if the
+  identifier remains unused at implementation time.
+- Preserved the public-private boundary and prohibited external reliance.
